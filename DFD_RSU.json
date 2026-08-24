@@ -65,7 +65,6 @@
                 "children": []
             },
 
-
             {
                 "position": {
                     "x": 350,
@@ -125,7 +124,6 @@
                 "children": []
             },
 
-
             {
                 "position": {
                     "x": 700,
@@ -167,7 +165,6 @@
                 "children": []
             },
 
-
             {
                 "routingPoints": [],
                 "selected": false,
@@ -181,7 +178,6 @@
                 "text": "Zertifikats-ID\nGPS-Position",
                 "children": []
             },
-
 
             {
                 "routingPoints": [],
