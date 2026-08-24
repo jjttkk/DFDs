@@ -1,0 +1,208 @@
+{
+    "model": {
+        "canvasBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 900,
+            "height": 300
+        },
+        "scroll": {
+            "x": 0,
+            "y": 0
+        },
+        "zoom": 1,
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "features": {},
+        "type": "graph",
+        "id": "root",
+        "children": [
+
+            {
+                "position": {
+                    "x": 50,
+                    "y": 100
+                },
+                "size": {
+                    "width": 120,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Fahrzeug",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": 116,
+                            "y": 16
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "vehicle-out",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "vehicle",
+                "type": "node:input-output",
+                "children": []
+            },
+
+
+            {
+                "position": {
+                    "x": 350,
+                    "y": 100
+                },
+                "size": {
+                    "width": 150,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Road Side Unit",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "rsu-in",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 146,
+                            "y": 16
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "rsu-out",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "rsu",
+                "type": "node:input-output",
+                "children": []
+            },
+
+
+            {
+                "position": {
+                    "x": 700,
+                    "y": 100
+                },
+                "size": {
+                    "width": 160,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Verkehrsbehörde",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "authority-in",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "authority",
+                "type": "node:input-output",
+                "children": []
+            },
+
+
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "vehicle-rsu",
+                "type": "edge:arrow",
+                "sourceId": "vehicle-out",
+                "targetId": "rsu-in",
+                "text": "Zertifikats-ID\nGPS-Position",
+                "children": []
+            },
+
+
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "rsu-authority",
+                "type": "edge:arrow",
+                "sourceId": "rsu-out",
+                "targetId": "authority-in",
+                "text": "GPS-Position",
+                "children": []
+            }
+
+        ]
+    },
+
+    "labelTypes": [],
+
+    "mode": "view",
+
+    "version": 1
+}
