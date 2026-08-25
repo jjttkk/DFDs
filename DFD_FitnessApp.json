@@ -1,0 +1,195 @@
+{
+    "model": {
+        "canvasBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 920,
+            "height": 260
+        },
+        "scroll": {
+            "x": 0,
+            "y": 0
+        },
+        "zoom": 1,
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "features": {},
+        "type": "graph",
+        "id": "root",
+        "children": [
+            {
+                "position": {
+                    "x": 40,
+                    "y": 100
+                },
+                "size": {
+                    "width": 130,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Patient:in",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": 126.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "patient-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "patient",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 360,
+                    "y": 100
+                },
+                "size": {
+                    "width": 150,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Fitness-App",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "app-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 146.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "app-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "app",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 700,
+                    "y": 100
+                },
+                "size": {
+                    "width": 180,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Externer Anbieter",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "cloud-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "cloud",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "patient-app",
+                "type": "edge:arrow",
+                "sourceId": "patient-out1",
+                "targetId": "app-in1",
+                "text": "Name\nHerzfrequenz\nBlutdruck",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "app-cloud",
+                "type": "edge:arrow",
+                "sourceId": "app-out1",
+                "targetId": "cloud-in1",
+                "text": "Name\nHerzfrequenz\nBlutdruck",
+                "children": []
+            }
+        ]
+    },
+    "labelTypes": [],
+    "mode": "view",
+    "version": 1
+}

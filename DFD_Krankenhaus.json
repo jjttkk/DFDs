@@ -1,0 +1,1212 @@
+{
+    "model": {
+        "canvasBounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1500,
+            "height": 820
+        },
+        "scroll": {
+            "x": 0,
+            "y": 0
+        },
+        "zoom": 1,
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "size": {
+            "width": -1,
+            "height": -1
+        },
+        "features": {},
+        "type": "graph",
+        "id": "root",
+        "children": [
+            {
+                "position": {
+                    "x": 30,
+                    "y": 260
+                },
+                "size": {
+                    "width": 130,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Patient:in",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": 126.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "patient-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "patient",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 230,
+                    "y": 260
+                },
+                "size": {
+                    "width": 190,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Patient:innenaufnahme",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "reception-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 186.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "reception-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "reception",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 500,
+                    "y": 245
+                },
+                "size": {
+                    "width": 200,
+                    "height": 70
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Krankenhaus-\nInformationssystem",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-in2",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-in3",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out2",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out3",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out4",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out5",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out6",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out7",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 196.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "his-out8",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "his",
+                "type": "node:storage",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 800,
+                    "y": 80
+                },
+                "size": {
+                    "width": 160,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Ärztlicher Dienst",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "doctor-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 156.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "doctor-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 156.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "doctor-out2",
+                        "type": "port:dfd-output",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 156.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "doctor-out3",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "doctor",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 800,
+                    "y": 230
+                },
+                "size": {
+                    "width": 150,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Pflegedienst",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "nurse-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "nurse",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1040,
+                    "y": 80
+                },
+                "size": {
+                    "width": 120,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Labor",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "lab-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 116.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "lab-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "lab",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1040,
+                    "y": 230
+                },
+                "size": {
+                    "width": 170,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Krankenhaus-\nApotheke",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "pharmacy-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 166.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "pharmacy-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "pharmacy",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1040,
+                    "y": 380
+                },
+                "size": {
+                    "width": 140,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Abrechnung",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "billing-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 136.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "billing-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "billing",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1260,
+                    "y": 380
+                },
+                "size": {
+                    "width": 150,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Krankenkasse",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "insurance-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "insurance",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 800,
+                    "y": 520
+                },
+                "size": {
+                    "width": 180,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Pseudonymisierung",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "pseudo-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 176.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "pseudo-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "pseudo",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1050,
+                    "y": 520
+                },
+                "size": {
+                    "width": 170,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Forschungssystem",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "research-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 166.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "research-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "research",
+                "type": "node:storage",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1280,
+                    "y": 520
+                },
+                "size": {
+                    "width": 160,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Statistiksystem",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "statistics-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "statistics",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 800,
+                    "y": 680
+                },
+                "size": {
+                    "width": 220,
+                    "height": 70
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Klinisches\nEntscheidungs-\nunterstützungssystem",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "decision-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    },
+                    {
+                        "position": {
+                            "x": 216.5,
+                            "y": 31.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "decision-out1",
+                        "type": "port:dfd-output",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "decision",
+                "type": "node:function",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 1080,
+                    "y": 680
+                },
+                "size": {
+                    "width": 220,
+                    "height": 60
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Externer\nForschungsdienstleister",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 26.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "external-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "external",
+                "type": "node:input-output",
+                "children": []
+            },
+            {
+                "position": {
+                    "x": 500,
+                    "y": 500
+                },
+                "size": {
+                    "width": 180,
+                    "height": 40
+                },
+                "strokeWidth": 0,
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "text": "Patient:innenarchiv",
+                "labels": [],
+                "ports": [
+                    {
+                        "position": {
+                            "x": -3.5,
+                            "y": 16.5
+                        },
+                        "size": {
+                            "width": 7,
+                            "height": 7
+                        },
+                        "strokeWidth": 0,
+                        "selected": false,
+                        "hoverFeedback": false,
+                        "opacity": 1,
+                        "features": {},
+                        "id": "archive-in1",
+                        "type": "port:dfd-input",
+                        "children": []
+                    }
+                ],
+                "features": {},
+                "id": "archive",
+                "type": "node:storage",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "patient-reception",
+                "type": "edge:arrow",
+                "sourceId": "patient-out1",
+                "targetId": "reception-in1",
+                "text": "Personenstammdaten\nName\nGeburtsdatum\nAdresse\nVersichertennummer",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "reception-his",
+                "type": "edge:arrow",
+                "sourceId": "reception-out1",
+                "targetId": "his-in1",
+                "text": "Patient:innenakte\nID\nStammdaten\nVersicherungsdaten",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-doctor",
+                "type": "edge:arrow",
+                "sourceId": "his-out1",
+                "targetId": "doctor-in1",
+                "text": "Behandlungsdaten\nID\nDiagnose",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-nurse",
+                "type": "edge:arrow",
+                "sourceId": "his-out2",
+                "targetId": "nurse-in1",
+                "text": "Pflegedaten\nID\nBehandlung\nMedikation",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "doctor-lab",
+                "type": "edge:arrow",
+                "sourceId": "doctor-out1",
+                "targetId": "lab-in1",
+                "text": "Untersuchungsauftrag\nID\nUntersuchungsdaten",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "lab-his",
+                "type": "edge:arrow",
+                "sourceId": "lab-out1",
+                "targetId": "his-in2",
+                "text": "Laborergebnisse\nID\nMesswerte\nBefunde",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "doctor-pharmacy",
+                "type": "edge:arrow",
+                "sourceId": "doctor-out2",
+                "targetId": "pharmacy-in1",
+                "text": "Verordnung\nID\nMedikamente\nDosierung",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "pharmacy-his",
+                "type": "edge:arrow",
+                "sourceId": "pharmacy-out1",
+                "targetId": "his-in3",
+                "text": "Medikationsdaten\nID\nMedikamente\nDosierung",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-billing",
+                "type": "edge:arrow",
+                "sourceId": "his-out3",
+                "targetId": "billing-in1",
+                "text": "Abrechnungsdaten\nID\nBehandlung\nLeistungen",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "billing-insurance",
+                "type": "edge:arrow",
+                "sourceId": "billing-out1",
+                "targetId": "insurance-in1",
+                "text": "Abrechnungsdaten\nVersichertennummer\nLeistungen\nBehandlung",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-archive",
+                "type": "edge:arrow",
+                "sourceId": "his-out4",
+                "targetId": "archive-in1",
+                "text": "Archivdaten\nID\nBehandlungsakte",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-pseudo",
+                "type": "edge:arrow",
+                "sourceId": "his-out5",
+                "targetId": "pseudo-in1",
+                "text": "Behandlungsdaten\nDiagnose\nMedikamente\nLaborwerte",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "pseudo-research",
+                "type": "edge:arrow",
+                "sourceId": "pseudo-out1",
+                "targetId": "research-in1",
+                "text": "Pseudonymisierte Daten\nForschungs-ID\nDiagnose\nMedikamente\nLaborwerte",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "research-statistics",
+                "type": "edge:arrow",
+                "sourceId": "research-out1",
+                "targetId": "statistics-in1",
+                "text": "Aggregierte Statistiken\nDiagnosen\nBehandlungsergebnisse",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-decision",
+                "type": "edge:arrow",
+                "sourceId": "his-out6",
+                "targetId": "decision-in1",
+                "text": "Vollständige Patient:innendaten\nID\nGeburtsdatum\nDiagnosehistorie\nMedikationshistorie\nLaborhistorie",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "decision-doctor",
+                "type": "edge:arrow",
+                "sourceId": "decision-out1",
+                "targetId": "doctor-in1",
+                "text": "Behandlungsempfehlung\nRisikohinweise\nMedikamentenhinweise",
+                "children": []
+            },
+            {
+                "routingPoints": [],
+                "selected": false,
+                "hoverFeedback": false,
+                "opacity": 1,
+                "features": {},
+                "id": "his-external",
+                "type": "edge:arrow",
+                "sourceId": "his-out7",
+                "targetId": "external-in1",
+                "text": "Patient:innendaten\nID\nDiagnose\nMedikamente\nLaborwerte",
+                "children": []
+            }
+        ]
+    },
+    "labelTypes": [],
+    "mode": "view",
+    "version": 1
+}
