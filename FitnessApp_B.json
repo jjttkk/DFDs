@@ -1,0 +1,248 @@
+{
+  "model": {
+    "canvasBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 958,
+      "height": 918
+    },
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "zoom": 1,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": -1,
+      "height": -1
+    },
+    "features": {},
+    "type": "graph",
+    "id": "root",
+    "children": [
+      {
+        "position": {
+          "x": 53.5,
+          "y": 24
+        },
+        "size": {
+          "width": 130,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [
+              null,
+              null
+            ]
+          }
+        },
+        "text": "Patient:in",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": 69.5,
+              "y": 13
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "patient-out1",
+            "type": "port:dfd-output",
+            "children": [],
+            "behavior": "",
+            "validBehavior": true
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "patient",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 360,
+          "y": 100
+        },
+        "size": {
+          "width": 150,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [
+              null,
+              null
+            ]
+          }
+        },
+        "text": "Fitness-App",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": -3.5,
+              "y": 16.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "app-in1",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 87.5,
+              "y": 13
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "app-out1",
+            "type": "port:dfd-output",
+            "children": [],
+            "behavior": "",
+            "validBehavior": true
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [
+          {
+            "message": "Personal data must originate from an at least identifiable natural person and be personally referred to this person. Such data includes identification features, external characteristics, internal states, or factual information. \nParticularly sensitive personal data, such as genetic or biometric data and health-related information, are classified as \"special categories of personal data\" (Article 9 GDPR). Additionally, \"personal data relating to criminal convictions and offences\" (Article 10 GDPR) are also delimited, as they may only be processed under specific conditions.",
+            "icon": "section"
+          }
+        ],
+        "features": {},
+        "id": "app",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 692,
+          "y": 24
+        },
+        "size": {
+          "width": 180,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [
+              null,
+              null
+            ]
+          }
+        },
+        "text": "Externer Anbieter",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": -3.5,
+              "y": 16.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "cloud-in1",
+            "type": "port:dfd-input",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "cloud",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Name, Herzfrequenz, Blutdruck",
+        "features": {},
+        "id": "patient-app",
+        "type": "edge:arrow",
+        "sourceId": "patient-out1",
+        "targetId": "app-in1",
+        "annotations": [],
+        "children": []
+      },
+      {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Name, Herzfrequenz, Blutdruck",
+        "features": {},
+        "id": "app-cloud",
+        "type": "edge:arrow",
+        "sourceId": "app-out1",
+        "targetId": "cloud-in1",
+        "annotations": [],
+        "children": []
+      }
+    ]
+  },
+  "labelTypes": [],
+  "constraints": [
+    {
+      "name": "",
+      "constraint": ""
+    }
+  ],
+  "mode": "view",
+  "version": 1
+}
