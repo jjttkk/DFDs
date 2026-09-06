@@ -1,0 +1,248 @@
+{
+  "model": {
+    "canvasBounds": {
+      "x": 0,
+      "y": 0,
+      "width": 958,
+      "height": 918
+    },
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "zoom": 1,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": -1,
+      "height": -1
+    },
+    "features": {},
+    "type": "graph",
+    "id": "root",
+    "children": [
+      {
+        "position": {
+          "x": 50,
+          "y": 40
+        },
+        "size": {
+          "width": 120,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [
+              null,
+              null
+            ]
+          }
+        },
+        "text": "Fahrzeug",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": 70,
+              "y": 16
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "vehicle-out",
+            "type": "port:dfd-output",
+            "children": [],
+            "behavior": "",
+            "validBehavior": true
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "vehicle",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 344.5,
+          "y": 104
+        },
+        "size": {
+          "width": 150,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [
+              null,
+              null
+            ]
+          }
+        },
+        "text": "Road Side Unit",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": 107.5,
+              "y": 10.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "rsu-out",
+            "type": "port:dfd-output",
+            "children": [],
+            "behavior": "",
+            "validBehavior": true
+          },
+          {
+            "position": {
+              "x": -3.5,
+              "y": 15.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "rsu-in",
+            "type": "port:dfd-input",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [
+          {
+            "message": "Personal data must originate from an at least identifiable natural person and be personally referred to this person. Such data includes identification features, external characteristics, internal states, or factual information. \nParticularly sensitive personal data, such as genetic or biometric data and health-related information, are classified as \"special categories of personal data\" (Article 9 GDPR). Additionally, \"personal data relating to criminal convictions and offences\" (Article 10 GDPR) are also delimited, as they may only be processed under specific conditions.",
+            "icon": "section"
+          }
+        ],
+        "features": {},
+        "id": "rsu",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 700,
+          "y": 100
+        },
+        "size": {
+          "width": 160,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [
+              null,
+              null
+            ]
+          }
+        },
+        "text": "Verkehrsbehörde",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": 0,
+              "y": 16
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "authority-in",
+            "type": "port:dfd-input",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "authority",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Zertifikats-ID, GPS-Position",
+        "features": {},
+        "id": "vehicle-rsu",
+        "type": "edge:arrow",
+        "sourceId": "vehicle-out",
+        "targetId": "rsu-in",
+        "annotations": [],
+        "children": []
+      },
+      {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "GPS-Position",
+        "features": {},
+        "id": "rsu-authority",
+        "type": "edge:arrow",
+        "sourceId": "rsu-out",
+        "targetId": "authority-in",
+        "annotations": [],
+        "children": []
+      }
+    ]
+  },
+  "labelTypes": [],
+  "constraints": [
+    {
+      "name": "",
+      "constraint": ""
+    }
+  ],
+  "mode": "view",
+  "version": 1
+}
