@@ -39,10 +39,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Kund:in",
@@ -173,10 +170,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Privacy- & Consent Management",
@@ -263,10 +257,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Zahlungsdienstleister",
@@ -333,10 +324,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Bestellverwaltung",
@@ -607,10 +595,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Lager- & Versandsystem",
@@ -796,10 +781,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Shop-Analyse",
@@ -967,10 +949,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Online-Shop",
@@ -1474,10 +1453,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Empfehlungssystem",
@@ -1568,10 +1544,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Werbung / Personalisierung",
@@ -1674,10 +1647,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Kund:innenprofil",
