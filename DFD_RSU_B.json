@@ -55,80 +55,33 @@
               },
               {
                 "id": "gvia09",
-                "name": "Classification",
+                "name": "Location",
                 "values": [
                   {
-                    "id": "x8q5f7",
-                    "text": "Confidential"
+                    "id": "g10hr",
+                    "text": "EU"
                   },
                   {
-                    "id": "9z8x3b",
-                    "text": "Public"
+                    "id": "5hnugm",
+                    "text": "nonEU"
+                  }
+                ]
+              },
+              {
+                "id": "84rllz",
+                "name": "Encryption",
+                "values": [
+                  {
+                    "id": "2r6xe6",
+                    "text": "Encrypted"
                   }
                 ]
               }
             ],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null, null ]
           }
         },
-        "text": "Vehicle",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": 129.5,
-              "y": 32.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "vehicle-rsu-out1",
-            "type": "port:dfd-output",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [],
-        "features": {},
-        "id": "vehicle",
-        "type": "node:input-output",
-        "children": []
-      },
-      {
-        "position": {
-          "x": 728,
-          "y": 74
-        },
-        "size": {
-          "width": 130,
-          "height": 40
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
-          }
-        },
-        "text": "Road Side Unit",
+        "text": "Verkehrsbehörde",
         "labels": [],
         "ports": [
           {
@@ -137,8 +90,96 @@
               "y": 13
             },
             "size": {
-              "width": 7,
-              "height": 7
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "6d2cub",
+            "type": "port:dfd-input",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "h4yhsl",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 194.5,
+          "y": 72
+        },
+        "size": {
+          "width": -1,
+          "height": -1
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [
+              {
+                "id": "4h3wzk",
+                "name": "Sensitivity",
+                "values": [
+                  {
+                    "id": "zzvphn",
+                    "text": "Personal"
+                  },
+                  {
+                    "id": "veaan9",
+                    "text": "Public"
+                  }
+                ]
+              },
+              {
+                "id": "gvia09",
+                "name": "Location",
+                "values": [
+                  {
+                    "id": "g10hr",
+                    "text": "EU"
+                  },
+                  {
+                    "id": "5hnugm",
+                    "text": "nonEU"
+                  }
+                ]
+              },
+              {
+                "id": "84rllz",
+                "name": "Encryption",
+                "values": [
+                  {
+                    "id": "2r6xe6",
+                    "text": "Encrypted"
+                  }
+                ]
+              }
+            ],
+            "updateCallbacks": [ null, null, null ]
+          }
+        },
+        "text": "Road Side Unit",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": 107.5,
+              "y": 13
+            },
+            "size": {
+              "width": -1,
+              "height": -1
             },
             "strokeWidth": 0,
             "selected": false,
@@ -147,28 +188,44 @@
             "behavior": "",
             "validBehavior": true,
             "features": {},
-            "id": "rsu-in1",
+            "id": "jr91ed",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": -3.5,
+              "y": 25.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "iayvkr",
             "type": "port:dfd-input",
             "children": []
           },
           {
             "position": {
-              "x": 128,
-              "y": 13
+              "x": -3.5,
+              "y": 5.5
             },
             "size": {
-              "width": 7,
-              "height": 7
+              "width": -1,
+              "height": -1
             },
             "strokeWidth": 0,
             "selected": false,
             "hoverFeedback": false,
             "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
             "features": {},
-            "id": "rsu-out1",
-            "type": "port:dfd-output",
+            "id": "j8fkoi",
+            "type": "port:dfd-input",
             "children": []
           }
         ],
@@ -186,13 +243,26 @@
         "children": []
       },
       {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "GPS-Position",
+        "features": {},
+        "id": "02kyok",
+        "type": "edge:arrow",
+        "sourceId": "jr91ed",
+        "targetId": "6d2cub",
+        "children": []
+      },
+      {
         "position": {
-          "x": 988,
-          "y": 74
+          "x": 59.5,
+          "y": -26
         },
         "size": {
-          "width": 130,
-          "height": 40
+          "width": -1,
+          "height": -1
         },
         "strokeWidth": 0,
         "selected": false,
@@ -200,24 +270,60 @@
         "opacity": 1,
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
-            "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "labelTypes": [
+              {
+                "id": "4h3wzk",
+                "name": "Sensitivity",
+                "values": [
+                  {
+                    "id": "zzvphn",
+                    "text": "Personal"
+                  },
+                  {
+                    "id": "veaan9",
+                    "text": "Public"
+                  }
+                ]
+              },
+              {
+                "id": "gvia09",
+                "name": "Location",
+                "values": [
+                  {
+                    "id": "g10hr",
+                    "text": "EU"
+                  },
+                  {
+                    "id": "5hnugm",
+                    "text": "nonEU"
+                  }
+                ]
+              },
+              {
+                "id": "84rllz",
+                "name": "Encryption",
+                "values": [
+                  {
+                    "id": "2r6xe6",
+                    "text": "Encrypted"
+                  }
+                ]
+              }
+            ],
+            "updateCallbacks": [ null, null, null ]
           }
         },
-        "text": "Traffic Authority",
+        "text": "Fahrzeug",
         "labels": [],
         "ports": [
           {
             "position": {
-              "x": -3.5,
-              "y": 13
+              "x": 13,
+              "y": 28.5
             },
             "size": {
-              "width": 7,
-              "height": 7
+              "width": -1,
+              "height": -1
             },
             "strokeWidth": 0,
             "selected": false,
@@ -226,8 +332,28 @@
             "behavior": "",
             "validBehavior": true,
             "features": {},
-            "id": "authority-in1",
-            "type": "port:dfd-input",
+            "id": "do8zj",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 68,
+              "y": 28.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "b0bjnk",
+            "type": "port:dfd-output",
             "children": []
           }
         ],
@@ -235,43 +361,92 @@
         "minimumWidth": 50,
         "annotations": [],
         "features": {},
-        "id": "authority",
+        "id": "3a9kii",
         "type": "node:input-output",
         "children": []
       },
       {
-        "routingPoints": [],
+        "routingPoints": [
+          {
+            "x": 75,
+            "y": 100
+          }
+        ],
         "selected": false,
         "hoverFeedback": false,
         "opacity": 1,
-        "text": "Zertifikats-ID, GPS-Position",
+        "text": "ID",
         "features": {},
-        "id": "vehicle-rsu",
+        "id": "puejei",
         "type": "edge:arrow",
-        "sourceId": "vehicle-rsu-out1",
-        "targetId": "rsu-in1",
+        "sourceId": "do8zj",
+        "targetId": "iayvkr",
         "children": []
       },
       {
-        "routingPoints": [],
+        "routingPoints": [
+          {
+            "x": 130,
+            "y": 80
+          }
+        ],
         "selected": false,
         "hoverFeedback": false,
         "opacity": 1,
         "text": "GPS-Position",
         "features": {},
-        "id": "rsu-authority",
+        "id": "o3zyee",
         "type": "edge:arrow",
-        "sourceId": "rsu-out1",
-        "targetId": "authority-in1",
+        "sourceId": "b0bjnk",
+        "targetId": "j8fkoi",
         "children": []
       }
     ]
   },
-  "labelTypes": [],
+  "labelTypes": [
+    {
+      "id": "4h3wzk",
+      "name": "Sensitivity",
+      "values": [
+        {
+          "id": "zzvphn",
+          "text": "Personal"
+        },
+        {
+          "id": "veaan9",
+          "text": "Public"
+        }
+      ]
+    },
+    {
+      "id": "gvia09",
+      "name": "Location",
+      "values": [
+        {
+          "id": "g10hr",
+          "text": "EU"
+        },
+        {
+          "id": "5hnugm",
+          "text": "nonEU"
+        }
+      ]
+    },
+    {
+      "id": "84rllz",
+      "name": "Encryption",
+      "values": [
+        {
+          "id": "2r6xe6",
+          "text": "Encrypted"
+        }
+      ]
+    }
+  ],
   "constraints": [
     {
-      "name": "",
-      "constraint": ""
+      "name": "Test",
+      "constraint": "data Sensitivity.Personal neverFlows vertex Location.nonEU"
     }
   ],
   "mode": "edit",
