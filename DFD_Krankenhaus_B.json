@@ -2,15 +2,15 @@
   "model": {
     "canvasBounds": {
       "x": 0,
-      "y": -0.0000030994415283203125,
-      "width": 1185,
-      "height": 918
+      "y": 0,
+      "width": 1920,
+      "height": 919
     },
     "scroll": {
-      "x": 6.160183951905701,
-      "y": -174.51518174716725
+      "x": -438.87783752498683,
+      "y": -105.59908296455086
     },
-    "zoom": 0.7750715153371248,
+    "zoom": 0.8198927405975,
     "position": {
       "x": 0,
       "y": 0
@@ -1216,6 +1216,26 @@
           {
             "position": {
               "x": 137.5,
+              "y": 18
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "pseudo-research-out3",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 137.5,
               "y": -2
             },
             "size": {
@@ -1252,26 +1272,6 @@
             "id": "pseudo-research-out2",
             "type": "port:dfd-output",
             "children": []
-          },
-          {
-            "position": {
-              "x": 137.5,
-              "y": 18
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "pseudo-research-out3",
-            "type": "port:dfd-output",
-            "children": []
           }
         ],
         "hideLabels": false,
@@ -1306,8 +1306,8 @@
         "ports": [
           {
             "position": {
-              "x": 106.5,
-              "y": 10.5
+              "x": 78,
+              "y": 28.5
             },
             "size": {
               "width": 7,
@@ -1329,238 +1329,6 @@
         "features": {},
         "id": "statistics",
         "type": "node:input-output",
-        "children": []
-      },
-      {
-        "position": {
-          "x": 1072.5,
-          "y": 714
-        },
-        "size": {
-          "width": 170,
-          "height": 40
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [],
-            "updateCallbacks": [ null, null ]
-          }
-        },
-        "text": "Forschungssystem",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": -3.5,
-              "y": 10.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "research-statistics-out1",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 141.5,
-              "y": -3.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "pseudo-research-in4",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 43,
-              "y": 28.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "pseudo-research-in1",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 80.5,
-              "y": 28.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "pseudo-research-in2",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 138,
-              "y": 28.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "pseudo-research-in3",
-            "type": "port:dfd-input",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [],
-        "features": {},
-        "id": "research",
-        "type": "node:storage",
-        "children": []
-      },
-      {
-        "routingPoints": [],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Aggregierte Statistiken",
-        "features": {},
-        "id": "research-statistics-1",
-        "type": "edge:arrow",
-        "sourceId": "research-statistics-out1",
-        "targetId": "research-statistics-in1",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 1255,
-            "y": 600
-          },
-          {
-            "x": 1255,
-            "y": 715
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Laborwerte",
-        "features": {},
-        "id": "pseudo-research-4",
-        "type": "edge:arrow",
-        "sourceId": "pseudo-research-out4",
-        "targetId": "pseudo-research-in4",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 1410,
-            "y": 570
-          },
-          {
-            "x": 1410,
-            "y": 815
-          },
-          {
-            "x": 1120,
-            "y": 815
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Forschungs-ID",
-        "features": {},
-        "id": "pseudo-research-1",
-        "type": "edge:arrow",
-        "sourceId": "pseudo-research-out1",
-        "targetId": "pseudo-research-in1",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 1375,
-            "y": 580
-          },
-          {
-            "x": 1375,
-            "y": 800
-          },
-          {
-            "x": 1155,
-            "y": 800
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Diagnose",
-        "features": {},
-        "id": "pseudo-research-2",
-        "type": "edge:arrow",
-        "sourceId": "pseudo-research-out2",
-        "targetId": "pseudo-research-in2",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 1330,
-            "y": 590
-          },
-          {
-            "x": 1330,
-            "y": 745
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Medikamente",
-        "features": {},
-        "id": "pseudo-research-3",
-        "type": "edge:arrow",
-        "sourceId": "pseudo-research-out3",
-        "targetId": "pseudo-research-in3",
         "children": []
       },
       {
@@ -3438,6 +3206,262 @@
         "type": "edge:arrow",
         "sourceId": "decision-doctor-out1",
         "targetId": "doctor-in1",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 792.5,
+          "y": 819
+        },
+        "size": {
+          "width": 170,
+          "height": 40
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [],
+            "updateCallbacks": [ null, null ]
+          }
+        },
+        "text": "Forschungssystem",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": 35.5,
+              "y": -3.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "research-statistics-out1",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 141.5,
+              "y": -3.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "pseudo-research-in4",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 141.5,
+              "y": 5.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "pseudo-research-in3",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 141.5,
+              "y": 28.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "pseudo-research-in1",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 141.5,
+              "y": 15.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "pseudo-research-in2",
+            "type": "port:dfd-input",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "research",
+        "type": "node:storage",
+        "children": []
+      },
+      {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Aggregierte Statistiken",
+        "features": {},
+        "id": "research-statistics-1",
+        "type": "edge:arrow",
+        "sourceId": "research-statistics-out1",
+        "targetId": "research-statistics-in1",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 1230,
+            "y": 600
+          },
+          {
+            "x": 1230,
+            "y": 715
+          },
+          {
+            "x": 970,
+            "y": 715
+          },
+          {
+            "x": 970,
+            "y": 820
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Laborwerte",
+        "features": {},
+        "id": "pseudo-research-4",
+        "type": "edge:arrow",
+        "sourceId": "pseudo-research-out4",
+        "targetId": "pseudo-research-in4",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 1245,
+            "y": 590
+          },
+          {
+            "x": 1245,
+            "y": 735
+          },
+          {
+            "x": 985,
+            "y": 735
+          },
+          {
+            "x": 985,
+            "y": 830
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Medikamente",
+        "features": {},
+        "id": "pseudo-research-3",
+        "type": "edge:arrow",
+        "sourceId": "pseudo-research-out3",
+        "targetId": "pseudo-research-in3",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 1265,
+            "y": 570
+          },
+          {
+            "x": 1265,
+            "y": 770
+          },
+          {
+            "x": 1010,
+            "y": 770
+          },
+          {
+            "x": 1010,
+            "y": 850
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Forschungs-ID",
+        "features": {},
+        "id": "pseudo-research-1",
+        "type": "edge:arrow",
+        "sourceId": "pseudo-research-out1",
+        "targetId": "pseudo-research-in1",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 1255,
+            "y": 580
+          },
+          {
+            "x": 1255,
+            "y": 755
+          },
+          {
+            "x": 1000,
+            "y": 755
+          },
+          {
+            "x": 1000,
+            "y": 840
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Diagnose",
+        "features": {},
+        "id": "pseudo-research-2",
+        "type": "edge:arrow",
+        "sourceId": "pseudo-research-out2",
+        "targetId": "pseudo-research-in2",
         "children": []
       }
     ]
