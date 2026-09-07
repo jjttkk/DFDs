@@ -3,14 +3,15 @@
     "canvasBounds": {
       "x": 0,
       "y": 0,
-      "width": 958,
-      "height": 918
+      "width": 1920,
+      "height": 919
     },
-    "scroll": {
-      "x": -141.6227280881823,
-      "y": -605.9579727036671
+    "scroll
+      ": {
+      "x": -174.55193270681937,
+      "y": -352.9503345208314
     },
-    "zoom": 0.5915764380795103,
+    "zoom": 1.019370880693888,
     "position": {
       "x": 0,
       "y": 0
@@ -1746,24 +1747,6 @@
           {
             "position": {
               "x": -3.5,
-              "y": 13
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "profile-in2",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -3.5,
               "y": 25.5
             },
             "size": {
@@ -1799,6 +1782,24 @@
             "features": {},
             "id": "profile-out1",
             "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 18,
+              "y": 28.5
+            },
+            "size": {
+              "width": 7,
+              "height": 7
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "profile-in2",
+            "type": "port:dfd-input",
             "children": []
           }
         ],
@@ -1971,33 +1972,6 @@
       {
         "routingPoints": [
           {
-            "x": 175,
-            "y": 240
-          },
-          {
-            "x": 350,
-            "y": 245
-          },
-          {
-            "x": 355,
-            "y": 585
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Berechtigungen",
-        "features": {},
-        "id": "y8cs1v",
-        "type": "edge:arrow",
-        "sourceId": "consent-out3",
-        "targetId": "profile-in2",
-        "routerKind": "polyline",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
             "x": 160,
             "y": 600
           }
@@ -2073,6 +2047,41 @@
         "type": "edge:arrow",
         "sourceId": "profile-out1",
         "targetId": "recommendation-in1",
+        "routerKind": "polyline",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 175,
+            "y": -30
+          },
+          {
+            "x": 90,
+            "y": -30
+          },
+          {
+            "x": 90,
+            "y": 245
+          },
+          {
+            "x": 90,
+            "y": 620
+          },
+          {
+            "x": 685,
+            "y": 625
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Berechtigungen",
+        "features": {},
+        "id": "y8cs1v",
+        "type": "edge:arrow",
+        "sourceId": "consent-out3",
+        "targetId": "profile-in2",
         "routerKind": "polyline",
         "children": []
       }
