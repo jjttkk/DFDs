@@ -2,7 +2,7 @@
   "model": {
     "canvasBounds": {
       "x": 0,
-      "y": -3.0994415283203125e-06,
+      "y": -0.0000030994415283203125,
       "width": 1185,
       "height": 918
     },
@@ -40,10 +40,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Patient:in",
@@ -154,10 +151,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Patient:innenaufnahme",
@@ -382,10 +376,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Labor",
@@ -512,10 +503,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Ärztlicher Dienst",
@@ -765,10 +753,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Klinisches Entscheidungsunterstützungssystem",
@@ -955,10 +940,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Pflegedienst",
@@ -1043,10 +1025,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Externer Forschungsdienstleister",
@@ -1154,10 +1133,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Pseudonymisierung",
@@ -1322,10 +1298,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Statistiksystem",
@@ -1374,10 +1347,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Forschungssystem",
@@ -1609,10 +1579,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Patient:innenarchiv",
@@ -1679,10 +1646,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Krankenhaus-Apotheke",
@@ -1881,10 +1845,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Krankenhaus-Informationssystem",
@@ -3142,10 +3103,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Abrechnung",
@@ -3329,10 +3287,7 @@
         "dfdNodeLabelRenderer": {
           "labelTypeRegistry": {
             "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null ]
           }
         },
         "text": "Krankenkasse",
