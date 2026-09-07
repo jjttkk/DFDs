@@ -141,8 +141,12 @@
         ],
         "hideLabels": false,
         "minimumWidth": 50,
-        "annotations": [],
-        "features": {},
+        "annotations": [
+          {
+            "message": "A \"Third Party\" refers to a natural or legal person (of private or public law), authority, institution, or any other entity. By this definition, the \"Third Party\" is distinct from the data controller as well as the data subject and exists outside of the data processing entity. The transfer of personal data to Third Parties constitutes a data transmission. Consequently, such transmission falls within the scope of data processing under the applicable regulations.",
+            "icon": "section"
+          }
+        ],        "features": {},
         "id": "h4yhsl",
         "type": "node:input-output",
         "children": []
