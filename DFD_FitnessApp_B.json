@@ -55,80 +55,33 @@
               },
               {
                 "id": "gvia09",
-                "name": "Classification",
+                "name": "Location",
                 "values": [
                   {
-                    "id": "x8q5f7",
-                    "text": "Confidential"
+                    "id": "g10hr",
+                    "text": "EU"
                   },
                   {
-                    "id": "9z8x3b",
-                    "text": "Public"
+                    "id": "5hnugm",
+                    "text": "nonEU"
+                  }
+                ]
+              },
+              {
+                "id": "84rllz",
+                "name": "Encryption",
+                "values": [
+                  {
+                    "id": "2r6xe6",
+                    "text": "Encrypted"
                   }
                 ]
               }
             ],
-            "updateCallbacks": [
-              null,
-              null
-            ]
+            "updateCallbacks": [ null, null, null ]
           }
         },
-        "text": "Patient",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": 129.5,
-              "y": 32.5
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "patient-fitness-out1",
-            "type": "port:dfd-output",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [],
-        "features": {},
-        "id": "patient",
-        "type": "node:input-output",
-        "children": []
-      },
-      {
-        "position": {
-          "x": 728,
-          "y": 74
-        },
-        "size": {
-          "width": 130,
-          "height": 40
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [],
-            "updateCallbacks": [
-              null,
-              null
-            ]
-          }
-        },
-        "text": "Fitness-App",
+        "text": "Externer Anbieter",
         "labels": [],
         "ports": [
           {
@@ -137,28 +90,132 @@
               "y": 13
             },
             "size": {
-              "width": 7,
-              "height": 7
+              "width": -1,
+              "height": -1
             },
             "strokeWidth": 0,
             "selected": false,
             "hoverFeedback": false,
             "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
             "features": {},
-            "id": "fitness-in1",
+            "id": "6d2cub",
             "type": "port:dfd-input",
             "children": []
           },
           {
             "position": {
-              "x": 128,
-              "y": 13
+              "x": -3.5,
+              "y": -2
             },
             "size": {
-              "width": 7,
-              "height": 7
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "haugdg",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": -3.5,
+              "y": 25.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "simzr9",
+            "type": "port:dfd-input",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "h4yhsl",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 59.5,
+          "y": -26
+        },
+        "size": {
+          "width": -1,
+          "height": -1
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [
+              {
+                "id": "4h3wzk",
+                "name": "Sensitivity",
+                "values": [
+                  {
+                    "id": "zzvphn",
+                    "text": "Personal"
+                  },
+                  {
+                    "id": "veaan9",
+                    "text": "Public"
+                  }
+                ]
+              },
+              {
+                "id": "gvia09",
+                "name": "Location",
+                "values": [
+                  {
+                    "id": "g10hr",
+                    "text": "EU"
+                  },
+                  {
+                    "id": "5hnugm",
+                    "text": "nonEU"
+                  }
+                ]
+              },
+              {
+                "id": "84rllz",
+                "name": "Encryption",
+                "values": [
+                  {
+                    "id": "2r6xe6",
+                    "text": "Encrypted"
+                  }
+                ]
+              }
+            ],
+            "updateCallbacks": [ null, null, null ]
+          }
+        },
+        "text": "Patient:in",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": -3.5,
+              "y": 25.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
             },
             "strokeWidth": 0,
             "selected": false,
@@ -167,8 +224,232 @@
             "behavior": "",
             "validBehavior": true,
             "features": {},
-            "id": "fitness-out1",
+            "id": "do8zj",
             "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 33,
+              "y": 28.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "e4fji9",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 69.5,
+              "y": 25.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "b0bjnk",
+            "type": "port:dfd-output",
+            "children": []
+          }
+        ],
+        "hideLabels": false,
+        "minimumWidth": 50,
+        "annotations": [],
+        "features": {},
+        "id": "3a9kii",
+        "type": "node:input-output",
+        "children": []
+      },
+      {
+        "position": {
+          "x": 194.5,
+          "y": 72
+        },
+        "size": {
+          "width": -1,
+          "height": -1
+        },
+        "strokeWidth": 0,
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "dfdNodeLabelRenderer": {
+          "labelTypeRegistry": {
+            "labelTypes": [
+              {
+                "id": "4h3wzk",
+                "name": "Sensitivity",
+                "values": [
+                  {
+                    "id": "zzvphn",
+                    "text": "Personal"
+                  },
+                  {
+                    "id": "veaan9",
+                    "text": "Public"
+                  }
+                ]
+              },
+              {
+                "id": "gvia09",
+                "name": "Location",
+                "values": [
+                  {
+                    "id": "g10hr",
+                    "text": "EU"
+                  },
+                  {
+                    "id": "5hnugm",
+                    "text": "nonEU"
+                  }
+                ]
+              },
+              {
+                "id": "84rllz",
+                "name": "Encryption",
+                "values": [
+                  {
+                    "id": "2r6xe6",
+                    "text": "Encrypted"
+                  }
+                ]
+              }
+            ],
+            "updateCallbacks": [ null, null, null ]
+          }
+        },
+        "text": "Fitness-App",
+        "labels": [],
+        "ports": [
+          {
+            "position": {
+              "x": -3.5,
+              "y": 25.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "iayvkr",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": -3.5,
+              "y": 10.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "rgudla",
+            "type": "port:dfd-input",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 87.5,
+              "y": 13
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "jr91ed",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 83,
+              "y": -3.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "hg8lc",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": 87.5,
+              "y": 30.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "behavior": "",
+            "validBehavior": true,
+            "features": {},
+            "id": "9obk9a",
+            "type": "port:dfd-output",
+            "children": []
+          },
+          {
+            "position": {
+              "x": -3.5,
+              "y": 0.5
+            },
+            "size": {
+              "width": -1,
+              "height": -1
+            },
+            "strokeWidth": 0,
+            "selected": false,
+            "hoverFeedback": false,
+            "opacity": 1,
+            "features": {},
+            "id": "j8fkoi",
+            "type": "port:dfd-input",
             "children": []
           }
         ],
@@ -186,52 +467,39 @@
         "children": []
       },
       {
-        "position": {
-          "x": 988,
-          "y": 74
-        },
-        "size": {
-          "width": 190,
-          "height": 40
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypes": [],
-          "updateCallbacks": []
-        },
-        "text": "Externer Anbieter",
-        "labels": [],
-        "ports": [
+        "routingPoints": [
           {
-            "position": {
-              "x": -3.5,
-              "y": 13
-            },
-            "size": {
-              "width": 7,
-              "height": 7
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "provider-in1",
-            "type": "port:dfd-input",
-            "children": []
+            "x": 60,
+            "y": 100
           }
         ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Name",
         "features": {},
-        "id": "provider",
-        "type": "node:input-output",
+        "id": "puejei",
+        "type": "edge:arrow",
+        "sourceId": "do8zj",
+        "targetId": "iayvkr",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 95,
+            "y": 85
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Blutdruck",
+        "features": {},
+        "id": "uh83os",
+        "type": "edge:arrow",
+        "sourceId": "e4fji9",
+        "targetId": "rgudla",
         "children": []
       },
       {
@@ -239,12 +507,12 @@
         "selected": false,
         "hoverFeedback": false,
         "opacity": 1,
-        "text": "Name, Herzfrequenz, Blutdruck",
+        "text": "Blutdruck",
         "features": {},
-        "id": "patient-fitness",
+        "id": "02kyok",
         "type": "edge:arrow",
-        "sourceId": "patient-fitness-out1",
-        "targetId": "fitness-in1",
+        "sourceId": "jr91ed",
+        "targetId": "6d2cub",
         "children": []
       },
       {
@@ -252,21 +520,91 @@
         "selected": false,
         "hoverFeedback": false,
         "opacity": 1,
-        "text": "Name, Herzfrequenz, Blutdruck",
+        "text": "Name",
         "features": {},
-        "id": "fitness-provider",
+        "id": "7nan",
         "type": "edge:arrow",
-        "sourceId": "fitness-out1",
-        "targetId": "provider-in1",
+        "sourceId": "hg8lc",
+        "targetId": "haugdg",
+        "children": []
+      },
+      {
+        "routingPoints": [],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Herzfrequenz",
+        "features": {},
+        "id": "op8gyj",
+        "type": "edge:arrow",
+        "sourceId": "9obk9a",
+        "targetId": "simzr9",
+        "children": []
+      },
+      {
+        "routingPoints": [
+          {
+            "x": 135,
+            "y": 75
+          }
+        ],
+        "selected": false,
+        "hoverFeedback": false,
+        "opacity": 1,
+        "text": "Herzfrequenz",
+        "features": {},
+        "id": "o3zyee",
+        "type": "edge:arrow",
+        "sourceId": "b0bjnk",
+        "targetId": "j8fkoi",
         "children": []
       }
     ]
   },
-  "labelTypes": [],
+  "labelTypes": [
+    {
+      "id": "4h3wzk",
+      "name": "Sensitivity",
+      "values": [
+        {
+          "id": "zzvphn",
+          "text": "Personal"
+        },
+        {
+          "id": "veaan9",
+          "text": "Public"
+        }
+      ]
+    },
+    {
+      "id": "gvia09",
+      "name": "Location",
+      "values": [
+        {
+          "id": "g10hr",
+          "text": "EU"
+        },
+        {
+          "id": "5hnugm",
+          "text": "nonEU"
+        }
+      ]
+    },
+    {
+      "id": "84rllz",
+      "name": "Encryption",
+      "values": [
+        {
+          "id": "2r6xe6",
+          "text": "Encrypted"
+        }
+      ]
+    }
+  ],
   "constraints": [
     {
-      "name": "",
-      "constraint": ""
+      "name": "Test",
+      "constraint": "data Sensitivity.Personal neverFlows vertex Location.nonEU"
     }
   ],
   "mode": "edit",
