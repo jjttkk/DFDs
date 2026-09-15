@@ -6,8 +6,7 @@
       "width": 1920,
       "height": 919
     },
-    "scroll
-      ": {
+    "scroll": {
       "x": -174.55193270681937,
       "y": -352.9503345208314
     },
@@ -926,7 +925,9 @@
         "annotations": [
           {
             "message": "The controller must be able to demonstrate consent, which, if given in writing, must be provided in an intelligible and easily accessible form and formulated in clear and plain language.\nIf consent has been given, the processing is lawful for the purposes defined therein and only for these purposes. If the purposes defined in the consent change, the compatibility of these purposes must be checked and, if necessary, new consent must be obtained.\nIf consent was given in the context of a contract, a voluntary assessment must be made regarding the necessity of processing the requested personal data (prohibition of tying).\nThe data subject has the right to withdraw consent at any time, and the controller must inform the data subject of this in accordance with the duty to provide information when consent is given. If consent is withdrawn, the previous processing remains lawful, but all data processed on the basis of the consent must be deleted. Exception: The processing was based on a different legal basis from the outset.\nIf the consenting person is a minor, the processing of the child's personal data is only lawful if the child has reached the age of sixteen or consent has been given by the holder of parental responsibility over the child. The controller is obliged to make reasonable efforts to monitor this.",
-            "icon": "section"
+            "icon" : "magnifying-glass",
+            "color" : "#FFFFFF",
+            "tfg" : "1"
           }
         ],
         "features": {},
@@ -1611,8 +1612,9 @@
         "annotations": [
           {
             "message": "The processing of personal data is closely linked to purposes. For it to be legitimate, it must comply with the purpose limitation principle.\nThe necessary processing purposes are defined by the controller or the Union or its Member States. Further processing that is incompatible with the specified purposes is not permitted. Exceptions are formulated in Art. 89 para. 1 GDPR.\nIn addition, the principle defines further requirements such as storage duration and the like and forms the basis for the decision on the adequacy and relevance of the processing. This means that the personal data collected must be adequate, relevant and limited to what is necessary in relation to the purpose for which it is processed.\nHowever, not only must processing purposes be defined, but each of these purposes must be covered by the legal basis and accordingly be based on a legality fact. Consent as a form of legal basis can only be given for previously defined purposes and applies exclusively to these consented purposes.\nIn order to comply with the information obligation, the purposes must already be defined before processing.\nThere are no specifications for the degree of precision of the purpose definition, but the data subject must be able to understand the purposes for which their data is being collected. \nIf there is a change of purpose, the compatibility with the purpose of collection must be checked. A change of purpose is only exempt from the principle of purpose limitation if it has been agreed to in a consent form, if it is permitted by a legal provision or if it is for publicly interesting archive purposes, scientific or historical research purposes or statistical purposes. Research purposes or stat. purposes become relevant. If there is no such exception, the controller can only collect the data again with a changed purpose.",
-            "icon": "section"
-          }
+            "icon" : "magnifying-glass",
+            "color" : "#FFFFFF",
+            "tfg" : "2"          }
         ],
         "features": {},
         "id": "marketing",
@@ -1808,8 +1810,9 @@
         "annotations": [
           {
             "message": "Personal data must originate from an at least identifiable natural person and be personally referred to this person. Such data includes identification features, external characteristics, internal states, or factual information. \nParticularly sensitive personal data, such as genetic or biometric data and health-related information, are classified as \"special categories of personal data\" (Article 9 GDPR). Additionally, \"personal data relating to criminal convictions and offences\" (Article 10 GDPR) are also delimited, as they may only be processed under specific conditions.",
-            "icon": "section"
-          }
+            "icon" : "magnifying-glass",
+            "color" : "#FFFFFF",
+            "tfg" : "3"          }
         ],
         "features": {},
         "id": "profile",
