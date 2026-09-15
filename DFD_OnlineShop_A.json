@@ -143,7 +143,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "Personal data, as defined in Article 4(1) of the GDPR, refers to any information relating to an identified or identifiable natural person. An identifiable person is one who can be directly or indirectly identified, for example, by reference to an identifier such as a name, identification number, location data, online identifier, or factors specific to their physical, physiological, genetic, mental, economic, cultural, or social identity. In the context of software architecture, this means that any data element processed by the system that can be linked to a natural person falls under the scope of personal data and is subject to GDPR requirements. This includes data collected, stored, or transmitted within the system's data flows. Recognizing personal data is crucial for architects to ensure that appropriate data protection measures, such as data minimization, access controls, and lawful processing bases, are integrated into the system design to comply with GDPR obligations.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
@@ -213,7 +213,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "Consent under the GDPR is defined as any freely given, specific, informed, and unambiguous indication of the data subject's wishes by which they, by a statement or clear affirmative action, signify agreement to the processing of their personal data. This means that consent must be given voluntarily without coercion, be specific to the purpose of processing, and the data subject must be adequately informed about what they are consenting to. Additionally, the consent must be demonstrable by the data controller, who must be able to prove that valid consent was obtained. In practice, for software architectures handling personal data, this requires implementing mechanisms that allow users to actively give consent (e.g., ticking a box), providing clear information about data processing purposes before consent is given, and securely recording the consent event. The architecture should also support the ability for users to withdraw consent easily at any time, as consent must be revocable. These requirements ensure compliance with Articles 4(11) and 7 GDPR and Recital 32, which emphasize the necessity of clear and affirmative consent for lawful data processing.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "e8c1a3b6-28c0-41f4-8fa0-7b8ba2b6b4f7"
       } ],
@@ -296,7 +296,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "The term \"Third Party\" as defined in Article 4(10) GDPR refers to any natural or legal person, public authority, agency, or body other than the data subject, the controller, the processor, and persons who, under the direct authority of the controller or processor, are authorized to process personal data. In practical terms for software architecture, this means that any entity outside the core data processing roles—such as external service providers, partners, or other external systems receiving personal data—qualifies as a third party. Recognizing third parties is crucial when designing data flows and access controls, as data transfers or disclosures to third parties trigger specific GDPR obligations, including ensuring lawful processing, data protection safeguards, and transparency towards data subjects. It is important to distinguish third parties from processors or authorized personnel within the controller’s organization, as the latter operate under direct authority and are not considered third parties under the GDPR.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "a84767ae-18b4-4be0-9c9a-e71cfaca6118"
       } ],
@@ -879,7 +879,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "Personal data, as defined in Article 4(1) of the GDPR, refers to any information relating to an identified or identifiable natural person. An identifiable person is one who can be directly or indirectly identified, for example, by reference to an identifier such as a name, identification number, location data, online identifier, or factors specific to their physical, physiological, genetic, mental, economic, cultural, or social identity. In the context of software architecture, this means that any data element processed by the system that can be linked to a natural person falls under the scope of personal data and is subject to GDPR requirements. This includes data collected, stored, or transmitted within the system's data flows. Recognizing personal data is crucial for architects to ensure that appropriate data protection measures, such as data minimization, access controls, and lawful processing bases, are integrated into the system design to comply with GDPR obligations.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
@@ -1402,7 +1402,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "Personal data, as defined in Article 4(1) of the GDPR, refers to any information relating to an identified or identifiable natural person. An identifiable person is one who can be directly or indirectly identified, for example, by reference to an identifier such as a name, identification number, location data, online identifier, or factors specific to their physical, physiological, genetic, mental, economic, cultural, or social identity. In the context of software architecture, this means that any data element processed by the system that can be linked to a natural person falls under the scope of personal data and is subject to GDPR requirements. This includes data collected, stored, or transmitted within the system's data flows. Recognizing personal data is crucial for architects to ensure that appropriate data protection measures, such as data minimization, access controls, and lawful processing bases, are integrated into the system design to comply with GDPR obligations.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
@@ -1505,7 +1505,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "Personal data, as defined in Article 4(1) of the GDPR, refers to any information relating to an identified or identifiable natural person. An identifiable person is one who can be directly or indirectly identified, for example, by reference to an identifier such as a name, identification number, location data, online identifier, or factors specific to their physical, physiological, genetic, mental, economic, cultural, or social identity. In the context of software architecture, this means that any data element processed by the system that can be linked to a natural person falls under the scope of personal data and is subject to GDPR requirements. This includes data collected, stored, or transmitted within the system's data flows. Recognizing personal data is crucial for architects to ensure that appropriate data protection measures, such as data minimization, access controls, and lawful processing bases, are integrated into the system design to comply with GDPR obligations.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
@@ -1691,7 +1691,7 @@
       "minimumWidth" : 50,
       "annotations" : [ {
         "message" : "Personal data, as defined in Article 4(1) of the GDPR, refers to any information relating to an identified or identifiable natural person. An identifiable person is one who can be directly or indirectly identified, for example, by reference to an identifier such as a name, identification number, location data, online identifier, or factors specific to their physical, physiological, genetic, mental, economic, cultural, or social identity. In the context of software architecture, this means that any data element processed by the system that can be linked to a natural person falls under the scope of personal data and is subject to GDPR requirements. This includes data collected, stored, or transmitted within the system's data flows. Recognizing personal data is crucial for architects to ensure that appropriate data protection measures, such as data minimization, access controls, and lawful processing bases, are integrated into the system design to comply with GDPR obligations.",
-        "icon" : "exclamation",
+        "icon" : "magnifying-glass",
         "color" : "#FFFFFF",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
