@@ -1109,7 +1109,9 @@
         "annotations": [
           {
             "message": "A \"Third Party\" refers to a natural or legal person (of private or public law), authority, institution, or any other entity. By this definition, the \"Third Party\" is distinct from the data controller as well as the data subject and exists outside of the data processing entity. The transfer of personal data to Third Parties constitutes a data transmission. Consequently, such transmission falls within the scope of data processing under the applicable regulations.",
-            "icon": "section"
+            "icon" : "magnifying-glass",
+            "color" : "#FFFFFF",
+            "tfg" : "1"
           }
         ],
         "features": {},
@@ -2227,7 +2229,9 @@
         "annotations": [
           {
             "message": "Personal data must originate from an at least identifiable natural person and be personally referred to this person. Such data includes identification features, external characteristics, internal states, or factual information. \nParticularly sensitive personal data, such as genetic or biometric data and health-related information, are classified as \"special categories of personal data\" (Article 9 GDPR). Additionally, \"personal data relating to criminal convictions and offences\" (Article 10 GDPR) are also delimited, as they may only be processed under specific conditions.",
-            "icon": "section"
+            "icon" : "magnifying-glass",
+            "color" : "#FFFFFF",
+            "tfg" : "2"
           }
         ],
         "features": {},
