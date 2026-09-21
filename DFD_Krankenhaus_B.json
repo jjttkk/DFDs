@@ -1108,7 +1108,7 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "A \"Third Party\" refers to a natural or legal person (of private or public law), authority, institution, or any other entity. By this definition, the \"Third Party\" is distinct from the data controller as well as the data subject and exists outside of the data processing entity. The transfer of personal data to Third Parties constitutes a data transmission. Consequently, such transmission falls within the scope of data processing under the applicable regulations.",
+            "message": "Unter einem „Dritten“ versteht man eine natürliche oder juristische Person (des Privat- oder öffentlichen Rechts), eine Behörde, eine Einrichtung oder eine sonstige Stelle. Nach dieser Definition unterscheidet sich der „Dritte“ sowohl vom Verantwortlichen als auch von der betroffenen Person und ist außerhalb der datenverarbeitenden Stelle angesiedelt. Die Übermittlung personenbezogener Daten an Dritte stellt eine Datenübermittlung dar. Folglich fällt eine solche Übermittlung in den Anwendungsbereich der Datenverarbeitung gemäß den geltenden Vorschriften.",
             "icon" : "magnifying-glass",
             "color" : "#FFFFFF",
             "tfg" : "1"
@@ -2228,7 +2228,7 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "Personal data must originate from an at least identifiable natural person and be personally referred to this person. Such data includes identification features, external characteristics, internal states, or factual information. \nParticularly sensitive personal data, such as genetic or biometric data and health-related information, are classified as \"special categories of personal data\" (Article 9 GDPR). Additionally, \"personal data relating to criminal convictions and offences\" (Article 10 GDPR) are also delimited, as they may only be processed under specific conditions.",
+            "message": "Personenbezogene Daten müssen von einer zumindest identifizierbaren natürlichen Person stammen und sich persönlich auf diese Person beziehen. Zu diesen Daten zählen Identifikationsmerkmale, äußere Merkmale, innere Zustände oder Sachverhalte. \nBesonders sensible personenbezogene Daten, wie genetische oder biometrische Daten sowie gesundheitsbezogene Informationen, werden als „besondere Kategorien personenbezogener Daten“ eingestuft (Artikel 9 DSGVO). Darüber hinaus gelten „personenbezogene Daten, die strafrechtliche Verurteilungen und Straftaten betreffen“ (Artikel 10 DSGVO) sind ebenfalls abgegrenzt, da sie nur unter bestimmten Voraussetzungen verarbeitet werden dürfen.",
             "icon" : "magnifying-glass",
             "color" : "#FFFFFF",
             "tfg" : "2"
