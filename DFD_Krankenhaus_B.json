@@ -1029,6 +1029,7 @@
           }
         },
         "text": "Externer Forschungsdienstleister",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
@@ -1619,6 +1620,7 @@
           }
         },
         "text": "Krankenhaus-Informationssystem",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
