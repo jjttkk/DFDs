@@ -785,6 +785,7 @@
           }
         },
         "text": "Shop-Analyse",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
@@ -1550,6 +1551,7 @@
           }
         },
         "text": "Werbung / Personalisierung",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
@@ -1654,6 +1656,7 @@
           }
         },
         "text": "Kund:innenprofil",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
