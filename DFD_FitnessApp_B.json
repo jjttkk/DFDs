@@ -82,6 +82,7 @@
           }
         },
         "text": "Externer Anbieter",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
@@ -342,6 +343,7 @@
           }
         },
         "text": "Fitness-App",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
