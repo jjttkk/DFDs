@@ -42,6 +42,7 @@
         }
       },
       "text" : "Kund:in",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -171,6 +172,7 @@
         }
       },
       "text" : "Privacy- & Consent Management",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -256,6 +258,7 @@
         }
       },
       "text" : "Zahlungsdienstleister",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -748,6 +751,7 @@
         }
       },
       "text" : "Shop-Analyse",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1360,6 +1364,7 @@
         }
       },
       "text" : "Empfehlungssystem",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1448,6 +1453,7 @@
         }
       },
       "text" : "Werbung / Personalisierung",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1545,6 +1551,7 @@
         }
       },
       "text" : "Kund:innenprofil",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
