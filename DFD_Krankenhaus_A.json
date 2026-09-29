@@ -43,6 +43,7 @@
         }
       },
       "text" : "Patient:in",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -969,6 +970,7 @@
         }
       },
       "text" : "Externer Forschungsdienstleister",
+      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
