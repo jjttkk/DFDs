@@ -170,6 +170,7 @@
           }
         },
         "text": "Road Side Unit",
+        "color":"#881D3B",
         "labels": [],
         "ports": [
           {
