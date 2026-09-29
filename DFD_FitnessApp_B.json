@@ -145,7 +145,7 @@
           {
             "message": "Unter einem „Dritten“ versteht man eine natürliche oder juristische Person (des Privat- oder öffentlichen Rechts), eine Behörde, eine Einrichtung oder eine sonstige Stelle. Nach dieser Definition unterscheidet sich der „Dritte“ sowohl vom Verantwortlichen als auch von der betroffenen Person und ist außerhalb der datenverarbeitenden Stelle angesiedelt. Die Übermittlung personenbezogener Daten an Dritte stellt eine Datenübermittlung dar. Folglich fällt eine solche Übermittlung in den Anwendungsbereich der Datenverarbeitung gemäß den geltenden Vorschriften.",
             "icon" : "magnifying-glass",
-            "color" : "#FFFFFF",
+            "color" : "#b0b0b0",
             "tfg" : "1"
           }
         ],        "features": {},
@@ -465,7 +465,7 @@
           {
             "message": "Personenbezogene Daten müssen von einer zumindest identifizierbaren natürlichen Person stammen und sich persönlich auf diese Person beziehen. Zu diesen Daten zählen Identifikationsmerkmale, äußere Merkmale, innere Zustände oder Sachverhalte. \nBesonders sensible personenbezogene Daten, wie genetische oder biometrische Daten sowie gesundheitsbezogene Informationen, werden als „besondere Kategorien personenbezogener Daten“ eingestuft (Artikel 9 DSGVO). Darüber hinaus gelten „personenbezogene Daten, die strafrechtliche Verurteilungen und Straftaten betreffen“ (Artikel 10 DSGVO) sind ebenfalls abgegrenzt, da sie nur unter bestimmten Voraussetzungen verarbeitet werden dürfen.",
             "icon" : "magnifying-glass",
-            "color" : "#FFFFFF",
+            "color" : "#b0b0b0",
             "tfg" : "2"          }
         ],
         "features": {},
