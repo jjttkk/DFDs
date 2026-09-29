@@ -125,9 +125,9 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Der Begriff „Dritter“ im Sinne von Artikel 4 Absatz 10 DSGVO bezeichnet jede natürliche oder juristische Person, Behörde, Einrichtung oder Stelle, mit Ausnahme der betroffenen Person, des Verantwortlichen, des Auftragsverarbeiters und der Personen, die unter der unmittelbaren Aufsicht des Verantwortlichen oder des Auftragsverarbeiters zur Verarbeitung personenbezogener Daten befugt sind. In der Praxis bedeutet dies für die Softwarearchitektur, dass jede Instanz außerhalb der zentralen Datenverarbeitungsfunktionen – wie beispielsweise externe Dienstleister, Partner oder andere externe Systeme, die personenbezogene Daten erhalten – als Dritter gilt. Die Erkennung von Dritten ist bei der Gestaltung von Datenflüssen und Zugriffskontrollen von entscheidender Bedeutung, da Datenübermittlungen oder -weitergaben an Dritte bestimmte Verpflichtungen gemäß der DSGVO auslösen, darunter die Gewährleistung einer rechtmäßigen Verarbeitung, Datenschutzgarantien und Transparenz gegenüber den betroffenen Personen. Es ist wichtig, Dritte von Auftragsverarbeitern oder befugten Mitarbeitern innerhalb der Organisation des Verantwortlichen zu unterscheiden, da Letztere unter dessen direkter Weisungsbefugnis stehen und gemäß der DSGVO nicht als Dritte gelten.",
+        "message" : "Ein Dritter im Sinne der DSGVO ist jede natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle mit Ausnahme der betroffenen Person, des Verantwortlichen, des Auftragsverarbeiters und der Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, personenbezogene Daten zu verarbeiten. Dritte sind relevant, da personenbezogene Daten nur unter bestimmten rechtlichen Voraussetzungen an sie weitergegeben werden dürfen, wodurch der Datenschutz gewährleistet, und unbefugter Zugriff eingeschränkt wird. In Softwaresystemen hilft das Verständnis darüber, wer als Dritter gilt, dabei, Zugriffskontrollen und Regeln für die Weitergabe von Daten festzulegen, um die Anforderungen der DSGVO einzuhalten.",
         "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
+        "color" : "#D3D3D3",
         "tfg" : "dccb861c-9c99-4c59-80bf-088cd1416cde"
       } ],
       "features" : { },
@@ -243,9 +243,9 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne von Artikel 4 Absatz 1 der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Als identifizierbar gilt eine Person, die direkt oder indirekt identifiziert werden kann, beispielsweise anhand eines Identifikators wie eines Namens, einer Identifikationsnummer, von Standortdaten, eines Online-Identifikators oder anhand von Faktoren, die für ihre physische, physiologische, genetische, psychische, wirtschaftliche, kulturelle oder soziale Identität spezifisch sind. Im Zusammenhang mit der Softwarearchitektur bedeutet dies, dass jedes vom System verarbeitete Datenelement, das einer natürlichen Person zugeordnet werden kann, unter den Begriff „personenbezogene Daten“ fällt und den Anforderungen der DSGVO unterliegt. Dazu gehören Daten, die im Rahmen der Datenflüsse des Systems erhoben, gespeichert oder übertragen werden. Das Erkennen personenbezogener Daten ist für Architekten von entscheidender Bedeutung, um sicherzustellen, dass geeignete Datenschutzmaßnahmen wie Datenminimierung, Zugriffskontrollen und rechtmäßige Verarbeitungsgrundlagen in die Systemgestaltung integriert werden, um den Verpflichtungen der DSGVO nachzukommen.",
+        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
         "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
+        "color" : "#D3D3D3",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
       "features" : { },
@@ -412,9 +412,9 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne von Artikel 4 Absatz 1 der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Als identifizierbar gilt eine Person, die direkt oder indirekt identifiziert werden kann, beispielsweise anhand eines Identifikators wie eines Namens, einer Identifikationsnummer, von Standortdaten, eines Online-Identifikators oder anhand von Faktoren, die für ihre physische, physiologische, genetische, psychische, wirtschaftliche, kulturelle oder soziale Identität spezifisch sind. Im Zusammenhang mit der Softwarearchitektur bedeutet dies, dass jedes vom System verarbeitete Datenelement, das einer natürlichen Person zugeordnet werden kann, unter den Begriff „personenbezogene Daten“ fällt und den Anforderungen der DSGVO unterliegt. Dazu gehören Daten, die im Rahmen der Datenflüsse des Systems erhoben, gespeichert oder übertragen werden. Das Erkennen personenbezogener Daten ist für Architekten von entscheidender Bedeutung, um sicherzustellen, dass geeignete Datenschutzmaßnahmen wie Datenminimierung, Zugriffskontrollen und rechtmäßige Verarbeitungsgrundlagen in die Systemgestaltung integriert werden, um den Verpflichtungen der DSGVO nachzukommen.",
+        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
         "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
+        "color" : "#D3D3D3",
         "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
       } ],
       "features" : { },
