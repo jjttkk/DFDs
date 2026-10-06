@@ -231,10 +231,10 @@
 				"hideLabels": false,
 				"minimumWidth": 50,
 				"annotations": [
-					{
-						"message": "<b>Zwecke</b></br>Nach Artikel 5(1)(b) der DSGVO müssen personenbezogene Daten für <i>bestimmte, ausdrückliche und legitime Zwecke</i> erhoben und nicht weiterverarbeitet werden in einer Weise, die mit diesen Zwecken unvereinbar ist. Dieses Prinzip der <i>Zweckbindung</i> stellt sicher, dass Daten nur für die Gründe verwendet werden, die den betroffenen Personen klar kommuniziert werden, und erhöht die Transparenz und das Vertrauen. Für Softwarearchitekten bedeutet dies, dass jedes Datenverarbeitungssystem so gestaltet werden muss, dass es mit diesen definierten Zwecken übereinstimmt, um die Einhaltung der Vorschriften zu gewährleisten und rechtliche Risiken zu vermeiden.",
-						"tfg": "7c1fd3e3-7cc1-41f3-ae4b-b6b06b7e24da"
-					}
+					"annotations" : [ {
+        "message" : "<b>Einwilligung</b></br>Einwilligung ist in <i>Artikel 4(11)</i> der DSGVO definiert als eine freiwillig gegebene, spezifische, informierte und unmissverständliche Angabe des Wunsches der betroffenen Person. Sie ist entscheidend für die rechtmäßige Verarbeitung personenbezogener Daten, wie in <i>Artikel 7</i> dargelegt, der verlangt, dass die betroffene Person ihre Einwilligung jederzeit widerrufen kann. Dies bedeutet, dass Softwarearchitekten Mechanismen implementieren müssen, um die Einwilligung effektiv zu erhalten und zu verwalten, um die Anforderungen der DSGVO zu erfüllen.",
+        "tfg" : "95c25d3c-52a1-4213-9f27-422eb5f7eeeb"
+      } ],
 				],
 				"features": {},
 				"id": "consent",
@@ -324,12 +324,10 @@
 				],
 				"hideLabels": false,
 				"minimumWidth": 50,
-				"annotations": [
-					{
-						"message": "<b>Identifikation</b></br>Die Identifikation bezieht sich auf die Fähigkeit, eine natürliche Person anhand ihrer personenbezogenen Daten zu erkennen. Nach der DSGVO sind personenbezogene Daten alle Informationen, die eine Person direkt oder indirekt identifizieren können, was für die Einhaltung der Vorschriften in der Softwareentwicklung entscheidend ist. Das Verständnis der Identifikation ist wesentlich für die Implementierung von Datenschutzmaßnahmen und die Gewährleistung, dass personenbezogene Daten rechtmäßig und transparent verarbeitet werden. Dieses Konzept bildet die Grundlage für die Rechte der betroffenen Personen und die Verpflichtungen der Datenverantwortlichen im Umgang mit personenbezogenen Daten.",
-						"tfg": "ffcb197e-a2c6-4419-86da-24055a098e1d"
-					}
-				],
+				"annotations" : [ {
+        "message" : "<b>Dritte</b></brEine <i>Dritte</i> im Sinne der DSGVO ist jede Entität, die nicht die <i>betroffene Person</i>, <i>den Verantwortlichen</i> oder <i>den Auftragsverarbeiter</i> ist, noch eine Person, die zur Verarbeitung personenbezogener Daten autorisiert ist. Diese Unterscheidung ist für Softwarearchitekten entscheidend, da sie beeinflusst, wie personenbezogene Daten geteilt oder verarbeitet werden können, um die Einhaltung der Datenschutzvorschriften sicherzustellen.",
+        "tfg" : "2b039c6d-5f26-4a91-bf03-60a23ce1eb19"
+      } ],
 				"features": {},
 				"id": "payment",
 				"type": "node:input-output",
@@ -358,7 +356,6 @@
 					}
 				},
 				"text": "Bestellverwaltung",
-				"color": "#99CCFF",
 				"labels": [],
 				"ports": [
 					{
@@ -578,12 +575,6 @@
 				],
 				"hideLabels": false,
 				"minimumWidth": 50,
-				"annotations": [
-					{
-						"message": "<b>Identifikation</b></br>Die Identifikation bezieht sich auf die Fähigkeit, eine natürliche Person anhand ihrer personenbezogenen Daten zu erkennen. Nach der DSGVO sind personenbezogene Daten alle Informationen, die eine Person direkt oder indirekt identifizieren können, was für die Einhaltung der Vorschriften in der Softwareentwicklung entscheidend ist. Das Verständnis der Identifikation ist wesentlich für die Implementierung von Datenschutzmaßnahmen und die Gewährleistung, dass personenbezogene Daten rechtmäßig und transparent verarbeitet werden. Dieses Konzept bildet die Grundlage für die Rechte der betroffenen Personen und die Verpflichtungen der Datenverantwortlichen im Umgang mit personenbezogenen Daten.",
-						"tfg": "ffcb197e-a2c6-4419-86da-24055a098e1d"
-					}
-				],
 				"features": {},
 				"id": "order",
 				"type": "node:function",
