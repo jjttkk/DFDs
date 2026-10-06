@@ -43,6 +43,7 @@
         }
       },
       "text" : "Patient:in",
+		"color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -123,7 +124,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es vorschreibt, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelpersonen zu schützen.",
+        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
+      } ],
       "features" : { },
       "id" : "patient",
       "type" : "node:input-output",
@@ -148,6 +152,7 @@
         }
       },
       "text" : "Patient:innenaufnahme",
+	        "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -277,7 +282,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+            "annotations" : [ {
+        "message" : "<b>Zwecke</b></br>Nach Artikel 5 Absatz 1 Buchstabe b der DSGVO müssen personenbezogene Daten für <i>bestimmte, ausdrückliche und legitime Zwecke</i> erhoben und dürfen nicht weiterverarbeitet werden in einer Weise, die mit diesen Zwecken unvereinbar ist. Dieses Prinzip der <i>Zweckbindung</i> stellt sicher, dass Daten nur für die Gründe verwendet werden, die der betroffenen Person klar kommuniziert wurden.",
+        "tfg" : "7c1fd3e3-7cc1-41f3-ae4b-b6b06b7e24da"
+      } ],
       "features" : { },
       "id" : "reception",
       "type" : "node:function",
@@ -476,6 +484,7 @@
         }
       },
       "text" : "Ärztlicher Dienst",
+			  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -662,7 +671,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Einwilligung</b></br>Die Einwilligung wird in <i>Artikel 4 Absatz 11</i> der DSGVO definiert als eine freiwillige, spezifische, informierte und unmissverständliche Angabe des Wunsches der betroffenen Person. Sie ist entscheidend für die rechtmäßige Verarbeitung personenbezogener Daten, wie in <i>Artikel 7</i> dargelegt, der verlangt, dass die betroffene Person die Einwilligung jederzeit widerrufen kann.",
+        "tfg" : "95c25d3c-52a1-4213-9f27-422eb5f7eeeb"
+      } ],
       "features" : { },
       "id" : "doctor",
       "type" : "node:function",
@@ -1267,6 +1279,7 @@
         }
       },
       "text" : "Patient:innenarchiv",
+	  	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1305,7 +1318,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Identifizierung</b></br>Die Identifizierung bezieht sich auf die Fähigkeit, eine natürliche Person anhand ihrer personenbezogenen Daten zu erkennen. Nach der DSGVO sind personenbezogene Daten alle Informationen, die eine Person direkt oder indirekt identifizieren können, was für die Einhaltung der Vorschriften in der Softwareentwicklung entscheidend ist.",
+        "tfg" : "ffcb197e-a2c6-4419-86da-24055a098e1d"
+      } ],
       "features" : { },
       "id" : "archive",
       "type" : "node:storage",
