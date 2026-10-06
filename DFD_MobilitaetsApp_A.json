@@ -480,11 +480,10 @@
 				],
 				"hideLabels": false,
 				"minimumWidth": 50,
-				"annotations": [
-					{
-						"message": "<b>Einwilligung</b></br>Die Einwilligung wird in <i>Artikel 4(11)</i> der DSGVO als eine freiwillige, spezifische, informierte und unmissverständliche Erklärung des Wunsches der betroffenen Person definiert. Sie ist entscheidend für die rechtmäßige Verarbeitung personenbezogener Daten, wie in <i>Artikel 7</i> dargelegt, der verlangt, dass die betroffene Person ihre Einwilligung jederzeit widerrufen kann.",
-						"tfg": "95c25d3c-52a1-4213-9f27-422eb5f7eeeb"
-					}
+				      "annotations" : [ {
+        "message" : "<b>Zwecke</b></br>Nach Artikel 5 Absatz 1 Buchstabe b der DSGVO müssen personenbezogene Daten für <i>bestimmte, ausdrückliche und legitime Zwecke</i> erhoben werden und dürfen nicht weiterverarbeitet werden in einer Weise, die mit diesen Zwecken unvereinbar ist. Dieses Prinzip der <i>Zweckbindung</i> stellt sicher, dass Daten nur für die Gründe verwendet werden, die der betroffenen Person klar kommuniziert werden, was Transparenz und Vertrauen erhöht.",
+        "tfg" : "7c1fd3e3-7cc1-41f3-ae4b-b6b06b7e24da"
+      } ],
 				],
 				"features": {},
 				"id": "ucwah4a",
