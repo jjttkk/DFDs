@@ -1,864 +1,894 @@
 {
-  "model" : {
-    "canvasBounds" : {
-      "x" : 0,
-      "y" : 0,
-      "width" : 1185,
-      "height" : 918
-    },
-    "scroll" : {
-      "x" : -15.499999999999943,
-      "y" : -325.0126582278481
-    },
-    "zoom" : 1.3057851239669422,
-    "position" : {
-      "x" : 0,
-      "y" : 0
-    },
-    "size" : {
-      "width" : -1,
-      "height" : -1
-    },
-    "features" : { },
-    "type" : "graph",
-    "id" : "root",
-    "children": [
-      {
-        "position": {
-          "x": 59.5,
-          "y": -26
-        },
-        "size": {
-          "width": -1,
-          "height": -1
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [
-              {
-                "id": "4h3wzk",
-                "name": "Sensitivity",
-                "values": [
-                  {
-                    "id": "zzvphn",
-                    "text": "Personal"
-                  },
-                  {
-                    "id": "veaan9",
-                    "text": "Public"
-                  }
-                ]
-              },
-              {
-                "id": "gvia09",
-                "name": "Location",
-                "values": [
-                  {
-                    "id": "g10hr",
-                    "text": "EU"
-                  },
-                  {
-                    "id": "5hnugm",
-                    "text": "nonEU"
-                  }
-                ]
-              },
-              {
-                "id": "84rllz",
-                "name": "Encryption",
-                "values": [
-                  {
-                    "id": "2r6xe6",
-                    "text": "Encrypted"
-                  }
-                ]
-              }
-            ],
-            "updateCallbacks": [ null, null, null ]
-          }
-        },
-        "text": "Nutzer:in",
-        "color": "#99CCFF",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": 33,
-              "y": 28.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "e4fji9",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -3.5,
-              "y": 25.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "do8zj",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 67.5,
-              "y": 25.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "b0bjnk",
-            "type": "port:dfd-output",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [
-          {
-            "message": "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es bestimmt, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
-            "tfg": "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
-          }
-        ],
-        "features": {},
-        "id": "3a9kii",
-        "type": "node:input-output",
-        "children": []
-      },
-      {
-        "position": {
-          "x": 693,
-          "y": 79
-        },
-        "size": {
-          "width": -1,
-          "height": -1
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [
-              {
-                "id": "4h3wzk",
-                "name": "Sensitivity",
-                "values": [
-                  {
-                    "id": "zzvphn",
-                    "text": "Personal"
-                  },
-                  {
-                    "id": "veaan9",
-                    "text": "Public"
-                  }
-                ]
-              },
-              {
-                "id": "gvia09",
-                "name": "Location",
-                "values": [
-                  {
-                    "id": "g10hr",
-                    "text": "EU"
-                  },
-                  {
-                    "id": "5hnugm",
-                    "text": "nonEU"
-                  }
-                ]
-              },
-              {
-                "id": "84rllz",
-                "name": "Encryption",
-                "values": [
-                  {
-                    "id": "2r6xe6",
-                    "text": "Encrypted"
-                  }
-                ]
-              }
-            ],
-            "updateCallbacks": [ null, null, null ]
-          }
-        },
-        "text": "Verkehrsbehörde",
-        "color": "#99CCFF",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": -3.5,
-              "y": 28.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "simzr9",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -3.5,
-              "y": 13
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "6d2cub",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -3.5,
-              "y": -2
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "haugdg",
-            "type": "port:dfd-input",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [
-          {
-            "message": "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es bestimmt, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
-            "tfg": "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
-          }
-        ],
-        "features": {},
-        "id": "h4yhsl",
-        "type": "node:input-output",
-        "children": []
-      },
-      {
-        "position": {
-          "x": 194.5,
-          "y": 72
-        },
-        "size": {
-          "width": -1,
-          "height": -1
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [
-              {
-                "id": "4h3wzk",
-                "name": "Sensitivity",
-                "values": [
-                  {
-                    "id": "zzvphn",
-                    "text": "Personal"
-                  },
-                  {
-                    "id": "veaan9",
-                    "text": "Public"
-                  }
-                ]
-              },
-              {
-                "id": "gvia09",
-                "name": "Location",
-                "values": [
-                  {
-                    "id": "g10hr",
-                    "text": "EU"
-                  },
-                  {
-                    "id": "5hnugm",
-                    "text": "nonEU"
-                  }
-                ]
-              },
-              {
-                "id": "84rllz",
-                "name": "Encryption",
-                "values": [
-                  {
-                    "id": "2r6xe6",
-                    "text": "Encrypted"
-                  }
-                ]
-              }
-            ],
-            "updateCallbacks": [ null, null, null ]
-          }
-        },
-        "text": "Mobilitäts-App",
-        "color": "#99CCFF",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": -3.5,
-              "y": 10.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "rgudla",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -3.5,
-              "y": 25.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "iayvkr",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 83,
-              "y": -3.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "hg8lc",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 88,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "9obk9a",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 101.5,
-              "y": 18
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "jr91ed",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -3.5,
-              "y": 0.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "j8fkoi",
-            "type": "port:dfd-input",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [
-          {
-            "message": "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es bestimmt, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
-            "tfg": "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
-          }
-        ],
-        "features": {},
-        "id": "ucwah4a",
-        "type": "node:function",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 95,
-            "y": 85
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "GPS-Position",
-        "features": {},
-        "id": "uh83os",
-        "type": "edge:arrow",
-        "sourceId": "e4fji9",
-        "targetId": "rgudla",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 60,
-            "y": 100
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "ID",
-        "features": {},
-        "id": "puejei",
-        "type": "edge:arrow",
-        "sourceId": "do8zj",
-        "targetId": "iayvkr",
-        "children": []
-      },
-      {
-        "position": {
-          "x": 338.5,
-          "y": -58
-        },
-        "size": {
-          "width": -1,
-          "height": -1
-        },
-        "strokeWidth": 0,
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "dfdNodeLabelRenderer": {
-          "labelTypeRegistry": {
-            "labelTypes": [
-              {
-                "id": "4h3wzk",
-                "name": "Sensitivity",
-                "values": [
-                  {
-                    "id": "zzvphn",
-                    "text": "Personal"
-                  },
-                  {
-                    "id": "veaan9",
-                    "text": "Public"
-                  }
-                ]
-              },
-              {
-                "id": "gvia09",
-                "name": "Location",
-                "values": [
-                  {
-                    "id": "g10hr",
-                    "text": "EU"
-                  },
-                  {
-                    "id": "5hnugm",
-                    "text": "nonEU"
-                  }
-                ]
-              },
-              {
-                "id": "84rllz",
-                "name": "Encryption",
-                "values": [
-                  {
-                    "id": "2r6xe6",
-                    "text": "Encrypted"
-                  }
-                ]
-              }
-            ],
-            "updateCallbacks": [ null, null, null ]
-          }
-        },
-        "text": "Anonymisierung durch Aggregation (n >= 100)",
-        "labels": [],
-        "ports": [
-          {
-            "position": {
-              "x": 208,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "oy0c5",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 260.5,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "epp02",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 309.5,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "behavior": "",
-            "validBehavior": true,
-            "features": {},
-            "id": "mk26h",
-            "type": "port:dfd-output",
-            "children": []
-          },
-          {
-            "position": {
-              "x": -2,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "ruxsr4",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 98,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "k6ct3i",
-            "type": "port:dfd-input",
-            "children": []
-          },
-          {
-            "position": {
-              "x": 48,
-              "y": 32.5
-            },
-            "size": {
-              "width": -1,
-              "height": -1
-            },
-            "strokeWidth": 0,
-            "selected": false,
-            "hoverFeedback": false,
-            "opacity": 1,
-            "features": {},
-            "id": "rapsfy",
-            "type": "port:dfd-input",
-            "children": []
-          }
-        ],
-        "hideLabels": false,
-        "minimumWidth": 50,
-        "annotations": [],
-        "features": {},
-        "id": "ib8jvc",
-        "type": "node:function",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 550,
-            "y": 110
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Anzahl_Fahrten",
-        "features": {},
-        "id": "ex91u",
-        "type": "edge:arrow",
-        "sourceId": "oy0c5",
-        "targetId": "simzr9",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 605,
-            "y": 95
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Stadtbezirk",
-        "features": {},
-        "id": "0yf1mt",
-        "type": "edge:arrow",
-        "sourceId": "epp02",
-        "targetId": "6d2cub",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 655,
-            "y": 80
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Zeitfenster",
-        "features": {},
-        "id": "fbkftb",
-        "type": "edge:arrow",
-        "sourceId": "mk26h",
-        "targetId": "haugdg",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 340,
-            "y": 70
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Zeitstempel",
-        "features": {},
-        "id": "7nan",
-        "type": "edge:arrow",
-        "sourceId": "hg8lc",
-        "targetId": "ruxsr4",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 440,
-            "y": 110
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "ID",
-        "features": {},
-        "id": "op8gyj",
-        "type": "edge:arrow",
-        "sourceId": "9obk9a",
-        "targetId": "k6ct3i",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 390,
-            "y": 95
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "GPS-Position",
-        "features": {},
-        "id": "02kyok",
-        "type": "edge:arrow",
-        "sourceId": "jr91ed",
-        "targetId": "rapsfy",
-        "children": []
-      },
-      {
-        "routingPoints": [
-          {
-            "x": 135,
-            "y": 70
-          }
-        ],
-        "selected": false,
-        "hoverFeedback": false,
-        "opacity": 1,
-        "text": "Zeitstempel",
-        "features": {},
-        "id": "o3zyee",
-        "type": "edge:arrow",
-        "sourceId": "b0bjnk",
-        "targetId": "j8fkoi",
-        "children": []
-      }
-    ]
-  },
-  "labelTypes" : [ {
-    "id" : "4h3wzk",
-    "name" : "Sensitivity",
-    "values" : [ {
-      "id" : "zzvphn",
-      "text" : "Personal"
-    }, {
-      "id" : "veaan9",
-      "text" : "Public"
-    } ]
-  }, {
-    "id" : "gvia09",
-    "name" : "Location",
-    "values" : [ {
-      "id" : "g10hr",
-      "text" : "EU"
-    }, {
-      "id" : "5hnugm",
-      "text" : "nonEU"
-    } ]
-  }, {
-    "id" : "84rllz",
-    "name" : "Encryption",
-    "values" : [ {
-      "id" : "2r6xe6",
-      "text" : "Encrypted"
-    } ]
-  } ],
-  "constraints" : [ {
-    "name" : "Test",
-    "constraint" : "data Sensitivity.Personal neverFlows vertex Location.nonEU"
-  } ],
-  "mode" : "edit",
-  "version" : 1
+	"model": {
+		"canvasBounds": {
+			"x": 0,
+			"y": 0,
+			"width": 1185,
+			"height": 918
+		},
+		"scroll": {
+			"x": -15.499999999999943,
+			"y": -325.0126582278481
+		},
+		"zoom": 1.3057851239669422,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"size": {
+			"width": -1,
+			"height": -1
+		},
+		"features": {},
+		"type": "graph",
+		"id": "root",
+		"children": [
+			{
+				"position": {
+					"x": 59.5,
+					"y": -26
+				},
+				"size": {
+					"width": -1,
+					"height": -1
+				},
+				"strokeWidth": 0,
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"dfdNodeLabelRenderer": {
+					"labelTypeRegistry": {
+						"labelTypes": [
+							{
+								"id": "4h3wzk",
+								"name": "Sensitivity",
+								"values": [
+									{
+										"id": "zzvphn",
+										"text": "Personal"
+									},
+									{
+										"id": "veaan9",
+										"text": "Public"
+									}
+								]
+							},
+							{
+								"id": "gvia09",
+								"name": "Location",
+								"values": [
+									{
+										"id": "g10hr",
+										"text": "EU"
+									},
+									{
+										"id": "5hnugm",
+										"text": "nonEU"
+									}
+								]
+							},
+							{
+								"id": "84rllz",
+								"name": "Encryption",
+								"values": [
+									{
+										"id": "2r6xe6",
+										"text": "Encrypted"
+									}
+								]
+							}
+						],
+						"updateCallbacks": [
+							null,
+							null,
+							null
+						]
+					}
+				},
+				"text": "Nutzer:in",
+				"color":"#99CCFF",
+				"labels": [],
+				"ports": [
+					{
+						"position": {
+							"x": 33,
+							"y": 28.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "e4fji9",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": -3.5,
+							"y": 25.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "do8zj",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 67.5,
+							"y": 25.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "b0bjnk",
+						"type": "port:dfd-output",
+						"children": []
+					}
+				],
+				"hideLabels": false,
+				"minimumWidth": 50,
+				"annotations": [
+					{
+						"message": "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es diktiert, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
+						"tfg": "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
+					}
+				],
+				"features": {},
+				"id": "3a9kii",
+				"type": "node:input-output",
+				"children": []
+			},
+			{
+				"position": {
+					"x": 693,
+					"y": 79
+				},
+				"size": {
+					"width": -1,
+					"height": -1
+				},
+				"strokeWidth": 0,
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"dfdNodeLabelRenderer": {
+					"labelTypeRegistry": {
+						"labelTypes": [
+							{
+								"id": "4h3wzk",
+								"name": "Sensitivity",
+								"values": [
+									{
+										"id": "zzvphn",
+										"text": "Personal"
+									},
+									{
+										"id": "veaan9",
+										"text": "Public"
+									}
+								]
+							},
+							{
+								"id": "gvia09",
+								"name": "Location",
+								"values": [
+									{
+										"id": "g10hr",
+										"text": "EU"
+									},
+									{
+										"id": "5hnugm",
+										"text": "nonEU"
+									}
+								]
+							},
+							{
+								"id": "84rllz",
+								"name": "Encryption",
+								"values": [
+									{
+										"id": "2r6xe6",
+										"text": "Encrypted"
+									}
+								]
+							}
+						],
+						"updateCallbacks": [
+							null,
+							null,
+							null
+						]
+					}
+				},
+				"text": "Verkehrsbehörde",
+				"color":"#99CCFF",
+				"labels": [],
+				"ports": [
+					{
+						"position": {
+							"x": -3.5,
+							"y": 28.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "simzr9",
+						"type": "port:dfd-input",
+						"children": []
+					},
+					{
+						"position": {
+							"x": -3.5,
+							"y": 13
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "6d2cub",
+						"type": "port:dfd-input",
+						"children": []
+					},
+					{
+						"position": {
+							"x": -3.5,
+							"y": -2
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "haugdg",
+						"type": "port:dfd-input",
+						"children": []
+					}
+				],
+				"hideLabels": false,
+				"minimumWidth": 50,
+				"annotations": [
+					{
+						"message": "<b>Dritte</b></br>Eine <i>Dritte</i> im Sinne der DSGVO ist jede Entität, die nicht die <i>betroffene Person</i>, den <i>für die Verarbeitung Verantwortlichen</i> oder den <i>Auftragsverarbeiter</i> ist, noch eine Person, die zur Verarbeitung personenbezogener Daten befugt ist. Diese Unterscheidung ist für Softwarearchitekten entscheidend, da sie beeinflusst, wie personenbezogene Daten geteilt oder verarbeitet werden können, um die Einhaltung der Datenschutzvorschriften sicherzustellen.",
+						"tfg": "2b039c6d-5f26-4a91-bf03-60a23ce1eb19"
+					}
+				],
+				"features": {},
+				"id": "h4yhsl",
+				"type": "node:input-output",
+				"children": []
+			},
+			{
+				"position": {
+					"x": 194.5,
+					"y": 72
+				},
+				"size": {
+					"width": -1,
+					"height": -1
+				},
+				"strokeWidth": 0,
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"dfdNodeLabelRenderer": {
+					"labelTypeRegistry": {
+						"labelTypes": [
+							{
+								"id": "4h3wzk",
+								"name": "Sensitivity",
+								"values": [
+									{
+										"id": "zzvphn",
+										"text": "Personal"
+									},
+									{
+										"id": "veaan9",
+										"text": "Public"
+									}
+								]
+							},
+							{
+								"id": "gvia09",
+								"name": "Location",
+								"values": [
+									{
+										"id": "g10hr",
+										"text": "EU"
+									},
+									{
+										"id": "5hnugm",
+										"text": "nonEU"
+									}
+								]
+							},
+							{
+								"id": "84rllz",
+								"name": "Encryption",
+								"values": [
+									{
+										"id": "2r6xe6",
+										"text": "Encrypted"
+									}
+								]
+							}
+						],
+						"updateCallbacks": [
+							null,
+							null,
+							null
+						]
+					}
+				},
+				"text": "Mobilitäts-App",
+				"color":"#99CCFF",
+				"labels": [],
+				"ports": [
+					{
+						"position": {
+							"x": -3.5,
+							"y": 10.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "rgudla",
+						"type": "port:dfd-input",
+						"children": []
+					},
+					{
+						"position": {
+							"x": -3.5,
+							"y": 25.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "iayvkr",
+						"type": "port:dfd-input",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 83,
+							"y": -3.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "hg8lc",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 88,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "9obk9a",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 101.5,
+							"y": 18
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "jr91ed",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": -3.5,
+							"y": 0.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "j8fkoi",
+						"type": "port:dfd-input",
+						"children": []
+					}
+				],
+				"hideLabels": false,
+				"minimumWidth": 50,
+				"annotations": [
+					{
+						"message": "<b>Einwilligung</b></br>Die Einwilligung wird in <i>Artikel 4(11)</i> der DSGVO als eine freiwillige, spezifische, informierte und unmissverständliche Erklärung des Wunsches der betroffenen Person definiert. Sie ist entscheidend für die rechtmäßige Verarbeitung personenbezogener Daten, wie in <i>Artikel 7</i> dargelegt, der verlangt, dass die betroffene Person ihre Einwilligung jederzeit widerrufen kann.",
+						"tfg": "95c25d3c-52a1-4213-9f27-422eb5f7eeeb"
+					}
+				],
+				"features": {},
+				"id": "ucwah4a",
+				"type": "node:function",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 95,
+						"y": 85
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "GPS-Position",
+				"features": {},
+				"id": "uh83os",
+				"type": "edge:arrow",
+				"sourceId": "e4fji9",
+				"targetId": "rgudla",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 60,
+						"y": 100
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "ID",
+				"features": {},
+				"id": "puejei",
+				"type": "edge:arrow",
+				"sourceId": "do8zj",
+				"targetId": "iayvkr",
+				"children": []
+			},
+			{
+				"position": {
+					"x": 338.5,
+					"y": -58
+				},
+				"size": {
+					"width": -1,
+					"height": -1
+				},
+				"strokeWidth": 0,
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"dfdNodeLabelRenderer": {
+					"labelTypeRegistry": {
+						"labelTypes": [
+							{
+								"id": "4h3wzk",
+								"name": "Sensitivity",
+								"values": [
+									{
+										"id": "zzvphn",
+										"text": "Personal"
+									},
+									{
+										"id": "veaan9",
+										"text": "Public"
+									}
+								]
+							},
+							{
+								"id": "gvia09",
+								"name": "Location",
+								"values": [
+									{
+										"id": "g10hr",
+										"text": "EU"
+									},
+									{
+										"id": "5hnugm",
+										"text": "nonEU"
+									}
+								]
+							},
+							{
+								"id": "84rllz",
+								"name": "Encryption",
+								"values": [
+									{
+										"id": "2r6xe6",
+										"text": "Encrypted"
+									}
+								]
+							}
+						],
+						"updateCallbacks": [
+							null,
+							null,
+							null
+						]
+					}
+				},
+				"text": "Anonymisierung durch Aggregation (n >= 100)",
+				"labels": [],
+				"ports": [
+					{
+						"position": {
+							"x": 208,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "oy0c5",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 260.5,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "epp02",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 309.5,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"behavior": "",
+						"validBehavior": true,
+						"features": {},
+						"id": "mk26h",
+						"type": "port:dfd-output",
+						"children": []
+					},
+					{
+						"position": {
+							"x": -2,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "ruxsr4",
+						"type": "port:dfd-input",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 98,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "k6ct3i",
+						"type": "port:dfd-input",
+						"children": []
+					},
+					{
+						"position": {
+							"x": 48,
+							"y": 32.5
+						},
+						"size": {
+							"width": -1,
+							"height": -1
+						},
+						"strokeWidth": 0,
+						"selected": false,
+						"hoverFeedback": false,
+						"opacity": 1,
+						"features": {},
+						"id": "rapsfy",
+						"type": "port:dfd-input",
+						"children": []
+					}
+				],
+				"hideLabels": false,
+				"minimumWidth": 50,
+				"annotations": [],
+				"features": {},
+				"id": "ib8jvc",
+				"type": "node:function",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 550,
+						"y": 110
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "Anzahl_Fahrten",
+				"features": {},
+				"id": "ex91u",
+				"type": "edge:arrow",
+				"sourceId": "oy0c5",
+				"targetId": "simzr9",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 605,
+						"y": 95
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "Stadtbezirk",
+				"features": {},
+				"id": "0yf1mt",
+				"type": "edge:arrow",
+				"sourceId": "epp02",
+				"targetId": "6d2cub",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 655,
+						"y": 80
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "Zeitfenster",
+				"features": {},
+				"id": "fbkftb",
+				"type": "edge:arrow",
+				"sourceId": "mk26h",
+				"targetId": "haugdg",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 340,
+						"y": 70
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "Zeitstempel",
+				"features": {},
+				"id": "7nan",
+				"type": "edge:arrow",
+				"sourceId": "hg8lc",
+				"targetId": "ruxsr4",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 440,
+						"y": 110
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "ID",
+				"features": {},
+				"id": "op8gyj",
+				"type": "edge:arrow",
+				"sourceId": "9obk9a",
+				"targetId": "k6ct3i",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 390,
+						"y": 95
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "GPS-Position",
+				"features": {},
+				"id": "02kyok",
+				"type": "edge:arrow",
+				"sourceId": "jr91ed",
+				"targetId": "rapsfy",
+				"children": []
+			},
+			{
+				"routingPoints": [
+					{
+						"x": 135,
+						"y": 70
+					}
+				],
+				"selected": false,
+				"hoverFeedback": false,
+				"opacity": 1,
+				"text": "Zeitstempel",
+				"features": {},
+				"id": "o3zyee",
+				"type": "edge:arrow",
+				"sourceId": "b0bjnk",
+				"targetId": "j8fkoi",
+				"children": []
+			}
+		]
+	},
+	"labelTypes": [
+		{
+			"id": "4h3wzk",
+			"name": "Sensitivity",
+			"values": [
+				{
+					"id": "zzvphn",
+					"text": "Personal"
+				},
+				{
+					"id": "veaan9",
+					"text": "Public"
+				}
+			]
+		},
+		{
+			"id": "gvia09",
+			"name": "Location",
+			"values": [
+				{
+					"id": "g10hr",
+					"text": "EU"
+				},
+				{
+					"id": "5hnugm",
+					"text": "nonEU"
+				}
+			]
+		},
+		{
+			"id": "84rllz",
+			"name": "Encryption",
+			"values": [
+				{
+					"id": "2r6xe6",
+					"text": "Encrypted"
+				}
+			]
+		}
+	],
+	"constraints": [
+		{
+			"name": "Test",
+			"constraint": "data Sensitivity.Personal neverFlows vertex Location.nonEU"
+		}
+	],
+	"mode": "edit",
+	"version": 1
 }
