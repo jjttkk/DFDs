@@ -297,7 +297,6 @@
         }
       },
       "text" : "Fitness-App",
-	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -410,10 +409,7 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ {
-        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als die betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist entscheidend für Softwarearchitekten, da es diktiert, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten.",
-        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
-      } ],
+      "annotations" : [],
       "features" : { },
       "id" : "ucwah4a",
       "type" : "node:function",
