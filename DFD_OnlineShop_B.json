@@ -785,7 +785,7 @@
           }
         },
         "text": "Shop-Analyse",
-        "color":"#881D3B",
+        "color":"#99CCFF",
         "labels": [],
         "ports": [
           {
@@ -925,10 +925,9 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "Der Verantwortliche muss die Einwilligung nachweisen können; wurde diese schriftlich erteilt, muss sie in einer verständlichen und leicht zugänglichen Form vorliegen und in klarer und einfacher Sprache formuliert sein.\nWurde eine Einwilligung erteilt, ist die Verarbeitung für die darin festgelegten Zwecke und ausschließlich für diese Zwecke rechtmäßig. Ändern sich die in der Einwilligung festgelegten Zwecke, muss die Vereinbarkeit dieser Zwecke geprüft und gegebenenfalls eine neue Einwilligung eingeholt werden. \nWurde die Einwilligung im Rahmen eines Vertrags erteilt, muss eine freiwillige Abwägung hinsichtlich der Notwendigkeit der Verarbeitung der angeforderten personenbezogenen Daten vorgenommen werden (Kopplungsverbot).\nDie betroffene Person hat das Recht, ihre Einwilligung jederzeit zu widerrufen, und der Verantwortliche muss die betroffene Person darüber im Rahmen der Informationspflicht bei Erteilung der Einwilligung in Kenntnis setzen. Wird die Einwilligung widerrufen, bleibt die bisherige Verarbeitung rechtmäßig, jedoch müssen alle auf der Grundlage der Einwilligung verarbeiteten Daten gelöscht werden. Ausnahme: Die Verarbeitung beruhte von Anfang an auf einer anderen Rechtsgrundlage.\nIst die Person, die ihre Einwilligung erteilt, minderjährig, ist die Verarbeitung der personenbezogenen Daten des Kindes nur dann rechtmäßig, wenn das Kind das sechzehnte Lebensjahr vollendet hat oder die Einwilligung durch den Träger der elterlichen Sorge für das Kind erteilt wurde. Der Verantwortliche ist verpflichtet, angemessene Anstrengungen zu unternehmen, um dies zu überprüfen.",
-            "icon" : "magnifying-glass",
-            "color" : "#FFFFFF",
-            "tfg" : "1"
+            "message": "<b>Einwilligung</b><br><br>Der Verantwortliche muss die <b>Einwilligung nachweisen können</b>; wurde sie schriftlich erteilt, muss sie in einer verständlichen und leicht zugänglichen Form vorliegen und in <i>klarer und einfacher Sprache</i> formuliert sein.<br><br>Wurde eine Einwilligung erteilt, ist die Verarbeitung <b>für die darin festgelegten Zwecke und ausschließlich für diese Zwecke</b> rechtmäßig. Ändern sich die in der Einwilligung festgelegten Zwecke, muss die Vereinbarkeit dieser Zwecke geprüft und gegebenenfalls eine <b>neue Einwilligung</b> eingeholt werden.<br><br>Wurde die Einwilligung im Rahmen eines Vertrags erteilt, muss eine <b>freiwillige Abwägung</b> hinsichtlich der Notwendigkeit der Verarbeitung der angeforderten personenbezogenen Daten vorgenommen werden (<i>Kopplungsverbot</i>).<br><br>Die betroffene Person hat das Recht, ihre <b>Einwilligung jederzeit zu widerrufen</b>, und der Verantwortliche muss die betroffene Person darüber im Rahmen der Informationspflicht bei Erteilung der Einwilligung in Kenntnis setzen. Wird die Einwilligung widerrufen, bleibt die bisherige Verarbeitung rechtmäßig, jedoch müssen <b>alle auf der Grundlage der Einwilligung verarbeiteten Daten gelöscht werden</b>. Ausnahme: Die Verarbeitung beruhte von Anfang an auf einer anderen Rechtsgrundlage.<br><br>Ist die Person, die ihre Einwilligung erteilt, minderjährig, ist die Verarbeitung der personenbezogenen Daten des Kindes nur dann rechtmäßig, wenn das Kind das <b>sechzehnte Lebensjahr vollendet hat</b> oder die Einwilligung durch den Träger der elterlichen Sorge für das Kind erteilt wurde. Der Verantwortliche ist verpflichtet, <i>angemessene Anstrengungen zu unternehmen, um dies zu überprüfen</i>.",
+            "color": "#FFFFFF",
+            "tfg": "1"
           }
         ],
         "features": {},
@@ -1551,7 +1550,7 @@
           }
         },
         "text": "Werbung / Personalisierung",
-        "color":"#881D3B",
+        "color":"#99CCFF",
         "labels": [],
         "ports": [
           {
@@ -1613,10 +1612,10 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "Die Verarbeitung personenbezogener Daten ist eng mit den Verarbeitungszwecken verbunden. Damit sie rechtmäßig ist, muss sie dem Grundsatz der Zweckbindung entsprechen.\nDie erforderlichen Verarbeitungszwecke werden vom Verantwortlichen oder von der Union bzw. ihren Mitgliedstaaten festgelegt. Eine weitere Verarbeitung, die mit den festgelegten Zwecken unvereinbar ist, ist nicht zulässig. Ausnahmen sind in Art. 89 Abs. 1 DSGVO geregelt. Darüber hinaus legt der Grundsatz weitere Anforderungen wie beispielsweise die Aufbewahrungsdauer und Ähnliches fest und bildet die Grundlage für die Entscheidung über die Angemessenheit und Relevanz der Verarbeitung. Das bedeutet, dass die erhobenen personenbezogenen Daten im Hinblick auf den Zweck, zu dem sie verarbeitet werden, angemessen, relevant und auf das Notwendige beschränkt sein müssen.\nEs müssen jedoch nicht nur die Verarbeitungszwecke definiert werden, sondern jeder dieser Zwecke muss durch die Rechtsgrundlage abgedeckt sein und dementsprechend auf einem Rechtstitel beruhen. Eine Einwilligung als Rechtsgrundlage kann nur für zuvor festgelegte Zwecke erteilt werden und gilt ausschließlich für diese Zwecke, denen zugestimmt wurde.\nUm der Informationspflicht nachzukommen, müssen die Zwecke bereits vor der Verarbeitung festgelegt sein.\nEs gibt keine Vorgaben hinsichtlich des Genauigkeitsgrades der Zweckbestimmung, jedoch muss die betroffene Person in der Lage sein, die Zwecke zu verstehen, für die ihre Daten erhoben werden. \nBei einer Zweckänderung muss die Vereinbarkeit mit dem Erhebungszweck geprüft werden. Eine Zweckänderung ist nur dann vom Grundsatz der Zweckbindung ausgenommen, wenn sie in einer Einwilligungserklärung vereinbart wurde, wenn sie durch eine gesetzliche Bestimmung zulässig ist oder wenn sie im öffentlichen Interesse liegenden Archivzwecken, wissenschaftlichen oder historischen Forschungszwecken oder statistischen Zwecken dient. Dabei kommen Forschungszwecke oder statistische Zwecke zum Tragen. Liegt keine solche Ausnahme vor, darf der Verantwortliche die Daten nur mit einem geänderten Zweck erneut erheben.",
-            "icon" : "magnifying-glass",
-            "color" : "#FFFFFF",
-            "tfg" : "2"          }
+            "message": "<b>Zweckbindung</b><br><br>Die Verarbeitung personenbezogener Daten ist eng mit den Verarbeitungszwecken verbunden. Damit sie rechtmäßig ist, muss sie dem <b>Grundsatz der Zweckbindung</b> entsprechen.<br><br>Die erforderlichen Verarbeitungszwecke werden vom Verantwortlichen oder von der Union bzw. ihren Mitgliedstaaten festgelegt. Eine <b>weitere Verarbeitung, die mit den festgelegten Zwecken unvereinbar ist, ist nicht zulässig</b>. Ausnahmen sind in <b>Art. 89 Abs. 1 DSGVO</b> geregelt.<br><br>Darüber hinaus legt der Grundsatz weitere Anforderungen wie beispielsweise die <i>Aufbewahrungsdauer</i> und Ähnliches fest und bildet die Grundlage für die Entscheidung über die Angemessenheit und Relevanz der Verarbeitung. Das bedeutet, dass die erhobenen personenbezogenen Daten im Hinblick auf den Zweck, zu dem sie verarbeitet werden, <b>angemessen, relevant und auf das Notwendige beschränkt</b> sein müssen.<br><br>Es müssen jedoch nicht nur die Verarbeitungszwecke definiert werden, sondern <b>jeder dieser Zwecke muss durch die Rechtsgrundlage abgedeckt sein</b> und dementsprechend auf einem Rechtstitel beruhen. Eine Einwilligung als Rechtsgrundlage kann nur für <i>zuvor festgelegte Zwecke</i> erteilt werden und gilt ausschließlich für diese Zwecke, denen zugestimmt wurde.<br><br>Um der Informationspflicht nachzukommen, müssen die <b>Zwecke bereits vor der Verarbeitung festgelegt</b> sein.<br><br>Es gibt keine Vorgaben hinsichtlich des Genauigkeitsgrades der Zweckbestimmung, jedoch muss die betroffene Person in der Lage sein, die <i>Zwecke zu verstehen</i>, für die ihre Daten erhoben werden.<br><br>Bei einer Zweckänderung muss die <b>Vereinbarkeit mit dem Erhebungszweck</b> geprüft werden. Eine Zweckänderung ist nur dann vom Grundsatz der Zweckbindung ausgenommen, wenn sie in einer <i>Einwilligungserklärung vereinbart</i> wurde, wenn sie durch eine <i>gesetzliche Bestimmung zulässig</i> ist oder wenn sie <i>öffentlichen Archivzwecken, wissenschaftlichen oder historischen Forschungszwecken oder statistischen Zwecken</i> dient. Liegt keine solche Ausnahme vor, darf der Verantwortliche die Daten nur mit einem <b>geänderten Zweck erneut erheben</b>.",
+            "color": "#FFFFFF",
+            "tfg": "2"
+          }
         ],
         "features": {},
         "id": "marketing",
@@ -1656,7 +1655,7 @@
           }
         },
         "text": "Kund:innenprofil",
-        "color":"#881D3B",
+        "color":"#99CCFF",
         "labels": [],
         "ports": [
           {
@@ -1812,10 +1811,10 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "Personenbezogene Daten müssen von einer zumindest identifizierbaren natürlichen Person stammen und sich persönlich auf diese Person beziehen. Zu diesen Daten zählen Identifikationsmerkmale, äußere Merkmale, innere Zustände oder Sachverhalte. \nBesonders sensible personenbezogene Daten, wie genetische oder biometrische Daten sowie gesundheitsbezogene Informationen, werden als „besondere Kategorien personenbezogener Daten“ eingestuft (Artikel 9 DSGVO). Darüber hinaus gelten „personenbezogene Daten, die strafrechtliche Verurteilungen und Straftaten betreffen“ (Artikel 10 DSGVO) sind ebenfalls abgegrenzt, da sie nur unter bestimmten Voraussetzungen verarbeitet werden dürfen.",
-            "icon" : "magnifying-glass",
-            "color" : "#FFFFFF",
-            "tfg" : "3"          }
+            "message": "<b>Personenbezogene Daten</b><br><br>Personenbezogene Daten müssen von einer zumindest <b>identifizierbaren natürlichen Person</b> stammen und sich persönlich auf diese Person beziehen. Zu diesen Daten zählen <i>Identifikationsmerkmale, äußere Merkmale, innere Zustände oder Sachverhalte</i>.<br><br>Besonders sensible personenbezogene Daten, wie <b>genetische oder biometrische Daten sowie gesundheitsbezogene Informationen</b>, werden als „besondere Kategorien personenbezogener Daten“ eingestuft (<b>Artikel 9 DSGVO</b>). Darüber hinaus gelten „personenbezogene Daten, die strafrechtliche Verurteilungen und Straftaten betreffen“ (<b>Artikel 10 DSGVO</b>) als ebenfalls abgegrenzt, da sie <i>nur unter bestimmten Voraussetzungen verarbeitet werden dürfen</i>.",
+            "color": "#FFFFFF",
+            "tfg": "3"
+          }
         ],
         "features": {},
         "id": "profile",

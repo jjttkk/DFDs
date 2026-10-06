@@ -69,6 +69,7 @@
         }
       },
       "text" : "Verkehrsbehörde",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -90,7 +91,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es bestimmt, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
+        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
+      } ],
       "features" : { },
       "id" : "h4yhsl",
       "type" : "node:input-output",
@@ -142,6 +146,7 @@
         }
       },
       "text" : "Road Side Unit",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -199,7 +204,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Zwecke</b></br>Nach Artikel 5(1)(b) der DSGVO müssen personenbezogene Daten für <i>bestimmte, ausdrückliche und legitime Zwecke</i> erhoben werden und dürfen nicht weiter verarbeitet werden in einer Weise, die mit diesen Zwecken unvereinbar ist. Dieses Prinzip der <i>Zweckbindung</i> stellt sicher, dass Daten nur für die Gründe verwendet werden, die der betroffenen Person klar kommuniziert werden, was Transparenz und Vertrauen erhöht. Für Softwarearchitekten bedeutet dies, dass jedes Datenverarbeitungssystem so gestaltet werden muss, dass es mit diesen definierten Zwecken übereinstimmt, um die Einhaltung der Vorschriften zu gewährleisten und rechtliche Risiken zu vermeiden.",
+        "tfg" : "7c1fd3e3-7cc1-41f3-ae4b-b6b06b7e24da"
+      } ],
       "features" : { },
       "id" : "ucwah4a",
       "type" : "node:function",
@@ -263,7 +271,7 @@
         }
       },
       "text" : "Fahrzeug",
-      "color":"#881D3B",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -307,10 +315,8 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
+        "message" : "<b>Identifikation</b></br>Die Identifikation bezieht sich auf die Fähigkeit, eine natürliche Person anhand ihrer personenbezogenen Daten zu erkennen. Nach der DSGVO sind personenbezogene Daten alle Informationen, die eine Person direkt oder indirekt identifizieren können, was für die Einhaltung der Vorschriften in der Softwareentwicklung entscheidend ist. Das Verständnis der Identifikation ist wesentlich für die Implementierung von Datenschutzmaßnahmen und die Gewährleistung, dass personenbezogene Daten rechtmäßig und transparent verarbeitet werden. Dieses Konzept bildet die Grundlage für die Rechte der betroffenen Personen und die Verpflichtungen der Datenverantwortlichen im Umgang mit personenbezogenen Daten.",
+        "tfg" : "ffcb197e-a2c6-4419-86da-24055a098e1d"
       } ],
       "features" : { },
       "id" : "3a9kii",

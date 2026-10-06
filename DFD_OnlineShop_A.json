@@ -42,7 +42,7 @@
         }
       },
       "text" : "Kund:in",
-      "color":"#881D3B",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -143,10 +143,8 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
+        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist für Softwarearchitekten entscheidend, da es bestimmt, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
+        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
       } ],
       "features" : { },
       "id" : "customer",
@@ -172,7 +170,7 @@
         }
       },
       "text" : "Privacy- & Consent Management",
-      "color":"#881D3B",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -214,10 +212,8 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Eine Einwilligung im Sinne der DSGVO ist eine freiwillig für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung der betroffenen Person, mit der sie ihr Einverständnis mit der Verarbeitung ihrer personenbezogenen Daten erklärt. Sie muss durch eine eindeutige bestätigende Handlung erteilt werden, beispielsweise durch eine schriftliche Erklärung oder eine elektronische Bestätigung. Die Einwilligung muss von anderen Sachverhalten unterscheidbar sein und in einer verständlichen und leicht zugänglichen Form bereitgestellt werden. Verantwortliche müssen nachweisen können, dass eine Einwilligung erteilt wurde. Diese Rechtsgrundlage ist für Softwaresysteme, die personenbezogene Daten erheben und verarbeiten, von entscheidender Bedeutung, da sie sicherstellt, dass die Einwilligungen der Nutzer gültig und überprüfbar sind.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "e8c1a3b6-28c0-41f4-8fa0-7b8ba2b6b4f7"
+        "message" : "<b>Zwecke</b></br>Nach Artikel 5(1)(b) der DSGVO müssen personenbezogene Daten für <i>bestimmte, ausdrückliche und legitime Zwecke</i> erhoben und nicht weiterverarbeitet werden in einer Weise, die mit diesen Zwecken unvereinbar ist. Dieses Prinzip der <i>Zweckbindung</i> stellt sicher, dass Daten nur für die Gründe verwendet werden, die den betroffenen Personen klar kommuniziert werden, was Transparenz und Vertrauen erhöht. Für Softwarearchitekten bedeutet dies, dass jedes Datenverarbeitungssystem so gestaltet werden muss, dass es mit diesen definierten Zwecken übereinstimmt, um die Einhaltung sicherzustellen und rechtliche Risiken zu vermeiden.",
+        "tfg" : "7c1fd3e3-7cc1-41f3-ae4b-b6b06b7e24da"
       } ],
       "features" : { },
       "id" : "consent",
@@ -258,7 +254,7 @@
         }
       },
       "text" : "Zahlungsdienstleister",
-      "color":"#881D3B",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -298,10 +294,8 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Ein Dritter im Sinne der DSGVO ist jede natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle mit Ausnahme der betroffenen Person, des Verantwortlichen, des Auftragsverarbeiters und der Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, personenbezogene Daten zu verarbeiten. Dritte sind relevant, da personenbezogene Daten nur unter bestimmten rechtlichen Voraussetzungen an sie weitergegeben werden dürfen, wodurch der Datenschutz gewährleistet, und unbefugter Zugriff eingeschränkt wird. In Softwaresystemen hilft das Verständnis darüber, wer als Dritter gilt, dabei, Zugriffskontrollen und Regeln für die Weitergabe von Daten festzulegen, um die Anforderungen der DSGVO einzuhalten.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "a84767ae-18b4-4be0-9c9a-e71cfaca6118"
+        "message" : "<b>Einwilligung</b></br>Einwilligung wird in <i>Artikel 4(11)</i> der DSGVO als eine freiwillig gegebene, spezifische, informierte und eindeutige Angabe des Wunsches der betroffenen Person definiert. Sie ist entscheidend für die rechtmäßige Verarbeitung personenbezogener Daten, wie in <i>Artikel 7</i> dargelegt, der verlangt, dass die betroffene Person die Einwilligung jederzeit widerrufen kann. Das bedeutet, dass Softwarearchitekten Mechanismen implementieren müssen, um die Einwilligung effektiv zu erhalten und zu verwalten, um die Anforderungen der DSGVO zu erfüllen. Ein Versäumnis kann zu erheblichen rechtlichen Konsequenzen führen und das Vertrauen der Nutzer beeinträchtigen.",
+        "tfg" : "95c25d3c-52a1-4213-9f27-422eb5f7eeeb"
       } ],
       "features" : { },
       "id" : "payment",
@@ -751,7 +745,6 @@
         }
       },
       "text" : "Shop-Analyse",
-      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -881,12 +874,7 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
-      } ],
+      "annotations" : [ ],
       "features" : { },
       "id" : "analytics",
       "type" : "node:function",
@@ -1364,7 +1352,6 @@
         }
       },
       "text" : "Empfehlungssystem",
-      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1405,12 +1392,7 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
-      } ],
+      "annotations" : [ ],
       "features" : { },
       "id" : "recommendation",
       "type" : "node:function",
@@ -1453,7 +1435,6 @@
         }
       },
       "text" : "Werbung / Personalisierung",
-      "color":"#881D3B",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1509,12 +1490,7 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
-      } ],
+      "annotations" : [ ],
       "features" : { },
       "id" : "marketing",
       "type" : "node:function",
@@ -1551,7 +1527,7 @@
         }
       },
       "text" : "Kund:innenprofil",
-      "color":"#881D3B",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -1697,10 +1673,8 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
+        "message" : "<b>Identifikation</b></br>Identifikation bezieht sich auf die Fähigkeit, eine natürliche Person anhand ihrer personenbezogenen Daten zu erkennen. Nach der DSGVO sind personenbezogene Daten alle Informationen, die eine Person direkt oder indirekt identifizieren können, was für die Einhaltung in der Softwareentwicklung entscheidend ist. Das Verständnis von Identifikation ist wesentlich für die Implementierung von Datenschutzmaßnahmen und die Gewährleistung, dass personenbezogene Daten rechtmäßig und transparent verarbeitet werden. Dieses Konzept bildet die Grundlage für die Rechte der betroffenen Personen und die Verpflichtungen der Datenverantwortlichen im Umgang mit personenbezogenen Daten.",
+        "tfg" : "ffcb197e-a2c6-4419-86da-24055a098e1d"
       } ],
       "features" : { },
       "id" : "profile",

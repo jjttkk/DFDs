@@ -170,7 +170,7 @@
           }
         },
         "text": "Road Side Unit",
-        "color":"#881D3B",
+        "color":"#99CCFF",
         "labels": [],
         "ports": [
           {
@@ -234,10 +234,10 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "Personenbezogene Daten müssen von einer zumindest identifizierbaren natürlichen Person stammen und sich persönlich auf diese Person beziehen. Zu diesen Daten zählen Identifikationsmerkmale, äußere Merkmale, innere Zustände oder Sachverhalte. \nBesonders sensible personenbezogene Daten, wie genetische oder biometrische Daten sowie gesundheitsbezogene Informationen, werden als „besondere Kategorien personenbezogener Daten“ eingestuft (Artikel 9 DSGVO). Darüber hinaus gelten „personenbezogene Daten, die strafrechtliche Verurteilungen und Straftaten betreffen“ (Artikel 10 DSGVO) sind ebenfalls abgegrenzt, da sie nur unter bestimmten Voraussetzungen verarbeitet werden dürfen.",
-            "icon" : "magnifying-glass",
-            "color" : "#FFFFFF",
-            "tfg" : "1"          }
+            "message": "<b>Personenbezogene Daten</b><br><br>Personenbezogene Daten müssen von einer zumindest <b>identifizierbaren natürlichen Person</b> stammen und sich persönlich auf diese Person beziehen. Zu diesen Daten zählen <i>Identifikationsmerkmale, äußere Merkmale, innere Zustände oder Sachverhalte</i>.<br><br>Besonders sensible personenbezogene Daten, wie <b>genetische oder biometrische Daten sowie gesundheitsbezogene Informationen</b>, werden als „besondere Kategorien personenbezogener Daten“ eingestuft (<b>Artikel 9 DSGVO</b>). Darüber hinaus gelten „personenbezogene Daten, die strafrechtliche Verurteilungen und Straftaten betreffen“ (<b>Artikel 10 DSGVO</b>) als ebenfalls abgegrenzt, da sie <i>nur unter bestimmten Voraussetzungen verarbeitet werden dürfen</i>.",
+            "color": "#FFFFFF",
+            "tfg": "1"
+          }
         ],
         "features": {},
         "id": "ucwah4a",

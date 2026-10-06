@@ -69,6 +69,7 @@
         }
       },
       "text" : "Nutzer:in",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -130,7 +131,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist entscheidend für Softwarearchitekten, da es diktiert, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
+        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
+      } ],
       "features" : { },
       "id" : "3a9kii",
       "type" : "node:input-output",
@@ -182,6 +186,7 @@
         }
       },
       "text" : "Verkehrsbehörde",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -237,7 +242,10 @@
       } ],
       "hideLabels" : false,
       "minimumWidth" : 50,
-      "annotations" : [ ],
+      "annotations" : [ {
+        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist entscheidend für Softwarearchitekten, da es diktiert, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
+        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
+      } ],
       "features" : { },
       "id" : "h4yhsl",
       "type" : "node:input-output",
@@ -289,7 +297,7 @@
         }
       },
       "text" : "Mobilitäts-App",
-      "color":"#881D3B",
+	  "color":"#99CCFF",
       "labels" : [ ],
       "ports" : [ {
         "position" : {
@@ -403,10 +411,8 @@
       "hideLabels" : false,
       "minimumWidth" : 50,
       "annotations" : [ {
-        "message" : "Personenbezogene Daten im Sinne der DSGVO sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Dies umfasst Daten, durch die eine Person direkt oder indirekt identifiziert werden kann, wie beispielsweise Namen, Identifikationsnummern, Standortdaten oder Online-Kennungen. Für Softwarearchitekten bedeutet dies, dass jedes System, das solche Daten verarbeitet, die Regeln der DSGVO einhalten muss, um Datenschutz und Privatsphäre bereits durch die Gestaltung des Systems sicherzustellen. Die korrekte Identifizierung personenbezogener Daten ist entscheidend, um angemessene Sicherheitsmaßnahmen und die Einhaltung der rechtlichen Vorgaben bei Verarbeitungstätigkeiten von Daten anzuwenden.",
-        "icon" : "magnifying-glass",
-        "color" : "#FFFFFF",
-        "tfg" : "f97a461f-e9fd-4061-94d6-f12136c0109e"
+        "message" : "<b>Personenbezogene Daten</b></br>Personenbezogene Daten beziehen sich auf alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen, die als betroffene Person bekannt ist. Dazu gehören Namen, Identifikationsnummern, Standortdaten und Online-Identifikatoren. Dieses Konzept zu verstehen, ist entscheidend für Softwarearchitekten, da es diktiert, wie Daten im Einklang mit der DSGVO behandelt, gespeichert und verarbeitet werden sollten, um die Privatsphäre der Einzelnen zu schützen.",
+        "tfg" : "2d27900e-a4c0-4a0d-a69d-0127fea43c16"
       } ],
       "features" : { },
       "id" : "ucwah4a",
