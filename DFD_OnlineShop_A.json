@@ -230,12 +230,10 @@
 				],
 				"hideLabels": false,
 				"minimumWidth": 50,
-				"annotations": [
-					"annotations" : [ {
+				"annotations" : [ {
         "message" : "<b>Einwilligung</b></br>Einwilligung ist in <i>Artikel 4(11)</i> der DSGVO definiert als eine freiwillig gegebene, spezifische, informierte und unmissverständliche Angabe des Wunsches der betroffenen Person. Sie ist entscheidend für die rechtmäßige Verarbeitung personenbezogener Daten, wie in <i>Artikel 7</i> dargelegt, der verlangt, dass die betroffene Person ihre Einwilligung jederzeit widerrufen kann. Dies bedeutet, dass Softwarearchitekten Mechanismen implementieren müssen, um die Einwilligung effektiv zu erhalten und zu verwalten, um die Anforderungen der DSGVO zu erfüllen.",
         "tfg" : "95c25d3c-52a1-4213-9f27-422eb5f7eeeb"
       } ],
-				],
 				"features": {},
 				"id": "consent",
 				"type": "node:function",
