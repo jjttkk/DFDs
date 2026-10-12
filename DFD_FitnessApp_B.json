@@ -144,8 +144,7 @@
         "minimumWidth": 50,
         "annotations": [
           {
-            "message": "Unter einem „Dritten“ versteht man eine natürliche oder juristische Person (des Privat- oder öffentlichen Rechts), eine Behörde, eine Einrichtung oder eine sonstige Stelle. Nach dieser Definition unterscheidet sich der „Dritte“ sowohl vom Verantwortlichen als auch von der betroffenen Person und ist außerhalb der datenverarbeitenden Stelle angesiedelt. Die Übermittlung personenbezogener Daten an Dritte stellt eine Datenübermittlung dar. Folglich fällt eine solche Übermittlung in den Anwendungsbereich der Datenverarbeitung gemäß den geltenden Vorschriften.",
-            "tfg": "1"
+            "message": "<b>Dritter</b><br><br>Unter einem „Dritten“ versteht man eine <b>natürliche oder juristische Person</b> (des Privat- oder öffentlichen Rechts), eine Behörde, eine Einrichtung oder eine sonstige Stelle. Nach dieser Definition unterscheidet sich der „Dritte“ sowohl vom <i>Verantwortlichen</i> als auch von der <i>betroffenen Person</i> und ist außerhalb der datenverarbeitenden Stelle angesiedelt.<br><br>Die <b>Übermittlung personenbezogener Daten an Dritte</b> stellt eine Datenübermittlung dar. Folglich fällt eine solche Übermittlung in den <b>Anwendungsbereich der Datenverarbeitung</b> gemäß den geltenden Vorschriften.",            "tfg": "1"
           }
         ],
         "features": {},
