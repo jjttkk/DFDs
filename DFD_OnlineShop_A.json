@@ -323,7 +323,7 @@
 				"hideLabels": false,
 				"minimumWidth": 50,
 				"annotations" : [ {
-        "message" : "<b>Dritte</b></brEine <i>Dritte</i> im Sinne der DSGVO ist jede Entität, die nicht die <i>betroffene Person</i>, <i>den Verantwortlichen</i> oder <i>den Auftragsverarbeiter</i> ist, noch eine Person, die zur Verarbeitung personenbezogener Daten autorisiert ist. Diese Unterscheidung ist für Softwarearchitekten entscheidend, da sie beeinflusst, wie personenbezogene Daten geteilt oder verarbeitet werden können, um die Einhaltung der Datenschutzvorschriften sicherzustellen.",
+        			"message" : "<b>Dritte</b></br>Eine <i>Dritte</i> im Sinne der DSGVO ist jede Entität, die nicht die <i>betroffene Person</i>, <i>den Verantwortlichen</i> oder <i>den Auftragsverarbeiter</i> ist, noch eine Person, die zur Verarbeitung personenbezogener Daten autorisiert ist. Diese Unterscheidung ist für Softwarearchitekten entscheidend, da sie beeinflusst, wie personenbezogene Daten geteilt oder verarbeitet werden können, um die Einhaltung der Datenschutzvorschriften sicherzustellen.",
         "tfg" : "2b039c6d-5f26-4a91-bf03-60a23ce1eb19"
       } ],
 				"features": {},
