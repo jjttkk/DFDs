@@ -484,7 +484,6 @@
         "message" : "<b>Zwecke</b></br>Nach Artikel 5 Absatz 1 Buchstabe b der DSGVO müssen personenbezogene Daten für <i>bestimmte, ausdrückliche und legitime Zwecke</i> erhoben werden und dürfen nicht weiterverarbeitet werden in einer Weise, die mit diesen Zwecken unvereinbar ist. Dieses Prinzip der <i>Zweckbindung</i> stellt sicher, dass Daten nur für die Gründe verwendet werden, die der betroffenen Person klar kommuniziert werden, was Transparenz und Vertrauen erhöht.",
         "tfg" : "7c1fd3e3-7cc1-41f3-ae4b-b6b06b7e24da"
       } ],
-				],
 				"features": {},
 				"id": "ucwah4a",
 				"type": "node:function",
